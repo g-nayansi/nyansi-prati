@@ -1,0 +1,242 @@
+.navbarbrand{
+  
+  font-size: 1.3rem !important;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold !important;
+}
+
+.nav-item{
+  color: black!important;
+  
+}
+
+.nav{
+  margin-left: 70%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  
+}
+
+.navbar{
+  padding: 4% 0;
+  /* background-color: #0F0E0E; */
+}
+
+.logo
+{
+  width:  5rem;
+  height: 2rem;
+}
+
+
+
+.para{
+  font-size: 2rem;
+  background-color: #131313;
+  height: 23rem;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.btn{
+  background-color: #25D366 !important;
+  margin-top: 8%;
+  color: white !important;
+}
+
+.smalltext{
+  margin-top: 3%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: grey;
+}
+
+.text{
+  margin-top: 2%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: #694518;
+}
+
+.h{
+  margin-top: 10%;
+  padding-right: 10%;
+  color: white;
+}
+
+.colclass
+{
+  margin-left: 10%;
+  line-height: 1.2;
+  color: #DDAB6C;
+}
+
+.h1{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.feed{
+  margin-top: 5%;
+  border: #0F0E0E 1px;
+  padding: 1% 1%;
+  background-color: #0F0E0E;
+  color: white;
+}
+
+.eventphoto{
+    width: 35%;
+    height: 90%;
+    border-radius: 20px;
+    margin-left: 30%;
+    border: white 5px;
+}
+
+.conference-text{
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.conference{
+  width: 20%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
+
+.colimages{
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+  margin-left: 30%;
+  margin-top: 18%;
+}
+  
+.col1h3{
+  padding-left: 10%;
+  font-family: 'Quicksand', sans-serif;
+  color: #694518;
+  padding-top: 25%;
+}
+
+.h5{
+  padding-top: 2%;
+  padding-right: 30%;
+  padding-left: 10%;
+  color: black;
+}
+
+.col2{
+  padding-top: 40%;
+  padding-left: 25%;
+  font-family: 'Quicksand', sans-serif;
+  color: #694518;
+}
+
+.colimages2{
+  width: 50%;
+  height: 85%;
+  border-radius: 20px;
+  margin-left: 15%;
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+
+.coltext2{
+  padding-top: 2%;
+  padding-right: 20%;
+  padding-left: 25%;
+  color: black;
+  
+}
+
+.col3h3{
+  padding-left: 5%;
+  font-family: 'Quicksand', sans-serif;
+  color: #694518;
+  margin-top: 45%;
+}
+
+.col3h5{
+  padding-top: 2%;
+  padding-right: 30%;
+  padding-left: 5%;
+  color: black;
+}
+
+.colimage3{
+  width: 50%;
+  height: 85%;
+  border-radius: 20px;
+  margin-left: 30%;
+  margin-top: 30%;
+}
+
+.download{
+  background-image: url('/src/images/Rectangle 1 (2).png')!important;
+  background-repeat: no-repeat;
+  margin-left: 17%;
+  color: white;
+  margin-top: 20%;
+}
+
+.downloadh3{
+  padding-top: 3%;
+  padding-left: 14%;
+}
+
+.downloadh6{
+  padding-left: 19%;
+}
+
+.downloadbtn1{
+  padding-left: 23%;
+  padding-right: 5%;
+}
+
+#li{
+  list-style-type: none;
+  font-size: 0.8rem;
+  padding-bottom: 10%;
+  text-align: left;
+  color: white;
+}
+
+.footerh5{
+  color: #DDAB6C;
+  padding-left: 15%;
+}
+
+#footer{
+  margin-top: 7%;
+  background-color: #131313;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.subs{
+  color: #DDAB6C;
+}
+
+.inputbutton{
+  display: block;
+  overflow: hidden;
+}
+
+.input{
+  
+  margin-bottom: 5% !important;
+  width: 70% !important;
+}
+
+.p{
+  color: white;
+  font-size: 0.8rem;
+}
