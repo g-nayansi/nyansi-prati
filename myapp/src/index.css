@@ -6,6 +6,10 @@
   font-weight: bold !important;
 }
 
+.navbackground{
+  background-color: white;
+}
+
 .nav-item{
   color: black!important;
   
@@ -34,12 +38,10 @@
 .para{
   font-size: 2rem;
   background-color: #131313;
-  height: 23rem;
+  
   color: white;
   font-family: 'Quicksand', sans-serif;
   padding-top: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
 }
 
 .btn{
@@ -50,6 +52,7 @@
 
 .smalltext{
   margin-top: 3%;
+  padding-top: 5%;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   color: grey;
@@ -59,7 +62,7 @@
   margin-top: 2%;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  color: #694518;
+  color: #DDAB6C;
 }
 
 .h{
@@ -70,7 +73,7 @@
 
 .colclass
 {
-  margin-left: 10%;
+  padding-left: 12% !important;
   line-height: 1.2;
   color: #DDAB6C;
 }
@@ -87,6 +90,15 @@
   color: white;
 }
 
+.circlediv{
+   width: 10%;
+   background-color: #ec529a;
+   border-radius: 100%;
+   height: 13%;
+   margin-left: 100%;
+   box-shadow: 5px 3px white;
+}
+
 .eventphoto{
     width: 35%;
     height: 90%;
@@ -95,11 +107,50 @@
     border: white 5px;
 }
 
+.illust{
+  padding-right: 10% !important;
+  padding-left: 10% !important;
+}
+
+.Ist{
+  margin-top: 15% !important;
+  height: 270px;
+  background-color: #2536d3;
+  border-radius: 100px;
+  
+}
+.II{
+  margin: 0 3%;
+  width: 30% !important;
+  height: 270px;
+  background-color: #ecda38;
+  border-radius: 100px;
+ 
+}
+
+.III{
+  margin-top: 15% !important;
+  margin-right: 3%;
+  width: 30% !important;
+  height: 270px;
+  background-color: #25D366;
+  border-radius: 100px;
+  
+}
+
+.IV{
+  width: 30% !important;
+  height: 270px;
+  background-color: #ec529a;
+  border-radius: 100px;
+  
+}
 .conference-text{
   text-align: center;
   padding-top: 5%;
   padding-left: 10%;
   padding-right: 10%;
+  color: black;
 }
 
 .conference{
@@ -111,80 +162,86 @@
   margin-top: 15%;
 }
 
+.aboverow{
+  text-align: center;
+  color: #DDAB6C;
+  padding-top: 5%;
+}
+
 .colimages{
-  width: 50%;
-  height: 100%;
+  width: 53%;
+  height: 90%;
   border-radius: 20px;
   margin-left: 30%;
-  margin-top: 18%;
+  margin-top: 10%;
 }
   
 .col1h3{
   padding-left: 10%;
   font-family: 'Quicksand', sans-serif;
-  color: #694518;
-  padding-top: 25%;
+  color: #DDAB6C;
+  padding-top: 18%;
 }
 
 .h5{
   padding-top: 2%;
   padding-right: 30%;
   padding-left: 10%;
-  color: black;
+  color: white;
 }
 
 .col2{
-  padding-top: 40%;
+  padding-top: 30%;
   padding-left: 25%;
   font-family: 'Quicksand', sans-serif;
-  color: #694518;
+  color: #DDAB6C;
 }
 
 .colimages2{
   width: 50%;
-  height: 85%;
+  height: 80%;
   border-radius: 20px;
   margin-left: 15%;
-  margin-top: 30%;
-  margin-bottom: 10%;
+  margin-top: 20%;
+  
 }
 
 .coltext2{
   padding-top: 2%;
   padding-right: 20%;
   padding-left: 25%;
-  color: black;
+  color: white;
   
 }
 
 .col3h3{
   padding-left: 5%;
   font-family: 'Quicksand', sans-serif;
-  color: #694518;
-  margin-top: 45%;
+  color: #DDAB6C;
+  margin-top: 35%;
 }
 
 .col3h5{
   padding-top: 2%;
   padding-right: 30%;
   padding-left: 5%;
-  color: black;
+  color: white;
 }
 
 .colimage3{
   width: 50%;
-  height: 85%;
+  height: 65%;
   border-radius: 20px;
   margin-left: 30%;
-  margin-top: 30%;
+  margin-top: 25%;
 }
 
 .download{
   background-image: url('/src/images/Rectangle 1 (2).png')!important;
   background-repeat: no-repeat;
-  margin-left: 17%;
-  color: white;
-  margin-top: 20%;
+  margin-left: 17% !important;
+  color: black;
+  margin-top: 12%;
 }
 
 .downloadh3{
@@ -197,7 +254,7 @@
 }
 
 .downloadbtn1{
-  padding-left: 23%;
+  padding-left: 23% !important;
   padding-right: 5%;
 }
 
@@ -206,23 +263,23 @@
   font-size: 0.8rem;
   padding-bottom: 10%;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 .footerh5{
-  color: #DDAB6C;
+  color: black;
   padding-left: 15%;
 }
 
 #footer{
   margin-top: 7%;
-  background-color: #131313;
+  background-color: white;
   padding-top: 5%;
   padding-left: 5%;
 }
 
 .subs{
-  color: #DDAB6C;
+  color: black;
 }
 
 .inputbutton{
@@ -237,6 +294,11 @@
 }
 
 .p{
-  color: white;
+  color: black;
   font-size: 0.8rem;
+}
+
+.slides{
+  background-color: white !important;
+  padding-bottom: 5%;
 }
