@@ -3,64 +3,42 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Rating from '@mui/material/Rating'
-
+import NavLink from "react-bootstrap/esm/NavLink";
+import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
+import Carousel from 'react-bootstrap/Carousel';
 
 function navbar(){
     return(
         <div>
-            <div className="navbackground">
-                <Navbar  expand="lg">
-                    <Container className="navbar">
-                        <Nav.Link><img className="logo" src="/images/companylogo.jpg" /></Nav.Link>
-                        {/* <Navbar.Brand className="navbarbrand">Pratichakra</Navbar.Brand> */}
-                        <Navbar.Toggle aria-controls="navbarScroll" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto nav ">
-                                <Nav.Link className="nav-item" href="#">About</Nav.Link>
-                                <Nav.Link className="nav-item" href="#">Products</Nav.Link>
-                                <Nav.Link className="nav-item" href="#">Pricing</Nav.Link>
-                                <Nav.Link className="nav-item" href="#">Reviews</Nav.Link>
-                            </Nav>
-                        </Navbar.Collapse>
-
-                    </Container>
+            <div >
+                <Navbar>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                      <Nav className="me-auto">
+                        <Nav.Link href="#home" className="nav-item">home</Nav.Link>
+                        <Nav.Link href="#link" className="nav-item gap">about</Nav.Link>
+                        <Nav.Link href="#" className="nav-item gap2">services</Nav.Link>
+                      </Nav>
+                    </Navbar.Collapse>
                 </Navbar>
             </div>
-            <div className="para">
-                <div class="container">
-                    <div class="row ">
-                      <div class="col-lg-6 col-12 colclass">
-                        We make sure your special day goes off without a hitch!
-                        <br></br>
-                        <h6 className="h">
-                        Your ultimate event companion. Carries all the information you need for the event</h6>
-                        <button className="btn"><img src="/images/whatsapp.png" />Start The chat</button>
-                        <div className="circlediv"></div>
-                      </div>
-                      <div className="col-lg-6 col-12 illust">
-                        {/* <img className="eventphoto" src="/images/Untitled.png" alt="Event Photo"/> */}
-                        <div className="container ">
-                        <div className="row">
-                            <div className="col Ist">
-                                
-                            </div>
-                            <div className="col II">
-                                
-                            </div>
-                            <div className="col III">
-                               
-                            </div>
-                            <div className="col IV">
-                                
-                            </div>
-                        </div>
-                        </div>
-                      </div>
-                      
+            <div className="section1">
+                <div className="row ">
+                    <div className="col-lg-7 col-12 transition">
+                        <div className="line1"></div>
+                        <div className="line2"></div>
+                        <p className="company-name">prati</p>
+                        <p className="headline1">We make sure your <br /><span style={{color:'#DDAB6C',opacity:2}}>special day goes</span>,<br />
+                        without<strike className="strike"> a hitch</strike></p>
+                        <button className="btn1">Get started</button>
                     </div>
                     
+                    <div className="col-lg-5 col-12 figure">
+                        {/* <img className="banner1" src="images/Rectangle 8.png"></img> */}
+                    </div>
                 </div>
-            </div>
+            </div>        
+                   
                 <div className="slides">
                     <h5 className="smalltext">Build Up Your Community</h5>
                     <h3 className="text">Get Your Managing Partner for Your Events</h3>

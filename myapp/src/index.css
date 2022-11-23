@@ -1,53 +1,90 @@
-.navbarbrand{
-  
-  font-size: 1.3rem !important;
-  color: black;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold !important;
+.banner1{
+  width: 580px;
+  height: 580px;
+  margin-left: 50px;
+  z-index: -1;
 }
 
-.navbackground{
-  background-color: white;
+.section1{
+  margin-top : -80px;
 }
 
 .nav-item{
-  color: black!important;
-  
+  transform: rotate(270deg);
+  font-weight: 700 !important;
+  color: #0F0E0E !important;
+  margin-top: 10px;
 }
 
-.nav{
-  margin-left: 70%;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1rem;
-  
+.gap{
+  margin-left: 580px;
 }
 
-.navbar{
-  padding: 4% 0;
-  /* background-color: #0F0E0E; */
-}
-
-.logo
-{
-  width:  5rem;
-  height: 2rem;
-}
-
-
-
-.para{
-  font-size: 2rem;
-  background-color: #131313;
-  
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 3%;
-}
-
-.btn{
-  background-color: #25D366 !important;
-  margin-top: 8%;
+.gap2{
+  margin-left: 420px;
   color: white !important;
+  margin-top: 20px !important;
+  z-index: 1;
+}
+
+.figure{
+  background-image: url("images/Rectangle\ 8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.figure:hover{
+  background-image: url("images/Rectangle\ 8\ \(1\).png");
+}
+
+
+.line1{
+  position: absolute;
+  width: 12px;
+  height: 272px;
+  left: 340px;
+  top: 0px;
+  background-color: #0F0E0E;
+}
+
+.company-name{
+  font-size: 20.5rem;
+  opacity: 0.1;
+  font-weight: 500;
+  margin-top: 100px;
+  white-space: nowrap;
+}
+
+.line2{
+  position: absolute;
+  width: 12px;
+  height: 172px;
+  left: 368px;
+  top: 0px;
+  background-color: #0F0E0E;
+}
+
+.headline1{
+  margin-left: 210px;
+  margin-top: -280px;
+  font-size: 2rem;
+  font-weight: 800;
+  opacity: 1;
+}
+
+.strike{
+  color: #DDAB6C;
+}
+
+.btn1{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 35px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #0F0E0E;
 }
 
 .smalltext{
