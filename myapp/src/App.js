@@ -7,6 +7,7 @@ import Header from "./components/navbar";
 import Services from "./components/services";
 import Seminar_And_Conferences from "./components/seminarandconferences";
 import Corporate from "./components/corporate";
+import ServicePage from "./components/corporate";
 
 function App() {
   return (
@@ -15,11 +16,11 @@ function App() {
     <BrowserRouter>
         {/* <Header></Header> */}
         <Routes>
-          <Route path="/" element={<HomeScreen></HomeScreen>} />
-          <Route path="/aboutus" element={<Aboutus></Aboutus> } />
-          <Route path="/services" element={<Services></Services>} />
-          <Route path="/seminarandconferences" element={<Seminar_And_Conferences></Seminar_And_Conferences>} />
-          <Route path='/corporate' element={<Corporate></Corporate>} />
+          <Route path='/' element={<HomeScreen></HomeScreen>} />
+          <Route path='/aboutus' element={<Aboutus></Aboutus> } />
+          <Route path='/services' element={<Services></Services>} />
+          <Route path='/seminarandconferences' element={<Seminar_And_Conferences></Seminar_And_Conferences>} />
+          <Route path='/servicepage' element={<ServicePage></ServicePage>} />
         </Routes>
     </BrowserRouter>
     </>

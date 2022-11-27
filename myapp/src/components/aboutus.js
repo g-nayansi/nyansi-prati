@@ -12,17 +12,25 @@ function Aboutus(){
             initial={{opacity:0,y:-200}}
             animate={{opacity:1,y:0}}
             transition={{duration:1}}
-        >
-                <Header></Header>
+        >       
                 <div>
-                    <p className="approach">Our<br /><span className="word1"> approach</span></p>
-                    <img className="img1" src="images/skate.png"></img>
-                    <p className="desc1">We are a new emerging player in event managment and services<br /> domain having diverse network of
-                        professional Event managers,<br />  Vendors & Contributors on ground across India.</p>
-                    <p className="learnmore">LEARN MORE <img className="ellipse2" src='images/Ellipse 1.svg'/><span className="rightarrow0">⟶</span></p>
-                    <img className="dots" src="images/Frame (1).png"></img>
+                    <Header></Header>
                 </div>
-                <div className="poster">
+                <div className="row">
+                    <div className="col-lg-3 col-12">
+                        <img className="dots" src="images/Frame (1).png"></img>
+                    </div>
+                    <div className="col-lg-5 col-12 approach">
+                        <p >Our<br /><span className="word1"> approach</span></p>
+                        <p className="desc1">We are a new emerging player in event managment and services<br /> domain having diverse network of
+                        professional Event managers,<br />  Vendors & Contributors on ground across India.</p>
+                        <p className="learnmore">LEARN MORE <img className="ellipse2" src='images/Ellipse 1.svg'/><span className="rightarrow0">⟶</span></p>
+                    </div>
+                    <div className="col-lg-3 col-12">
+                        <img className="img1" src="images/skate.png"></img>
+                    </div>   
+                </div>
+                <div className="col-lg-12 col-12 poster">
                     <p className="desc2">"We know that you want your events to be unique that celebrates you! Tell us more<br />
                      about the story of yours that you want to share with your guests. We’ll get back to<br />
                      you soon with amazing ideas."</p>
@@ -94,29 +102,53 @@ function Aboutus(){
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <p className="reviews">Recent <span className="bolding">Reviews</span></p>
-                        <div className="underline4"></div>
-                        <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="true">
-                            <div className="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" ></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
-                            </div>
-                            <div className="carousel-inner">
-                                <div className="carousel-item active ">
-                                    
+                    <p className="reviews">Recent <span className="bolding">Reviews</span></p>
+                    <div className="underline4"></div>
+                    <div className="row">
+                        <div className="col-lg-3 col-12">
+                            <img className="dots1" src="images/Frame (1).png"/>
+                        </div>
+                        <div className="col-lg-7 col-12">
+                            <img className="inverted" src="images/inverted.svg" />
+                            <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="true">
+                                <div className="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" ></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
                                 </div>
-                                <div className="carousel-item">
-                                      
-                                </div>
-                                <div className="carousel-item">
-                                      
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active ">
+                                        <div className="revbox">
+                                            <p className="revdesc">We’ve only recently started working with Pratichakra but they <br />seriously saved our butts with a last minute vendor change <br />and threw a truly incredible event for us on a really difficult<br /> timeline for our Fleet Week and Product Reveal day events.</p>
+                                            <p className="revdesc">They worked with us on budget, were super communicative,<br /> and Nikki and Brad were both very personally engaged,<br /> attended the event and were rockstars throughout. Two<br /> thumbs up from this end!</p>
+                                        </div>
+                                        <img className="ownerimg" src="images/Mark.svg" />
+                                        <p className="ownername">Mark Spencer</p>
+                                        <p className="ownerdesg">CEO,founder</p>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <div className="revbox">
+                                            <p className="revdesc">We’ve only recently started working with Pratichakra but they <br />seriously saved our butts with a last minute vendor change <br />and threw a truly incredible event for us on a really difficult<br /> timeline for our Fleet Week and Product Reveal day events.</p>
+                                            <p className="revdesc">They worked with us on budget, were super communicative,<br /> and Nikki and Brad were both very personally engaged,<br /> attended the event and were rockstars throughout. Two<br /> thumbs up from this end!</p>
+                                        </div>
+                                        <img className="ownerimg" src="images/Mark.svg" />
+                                        <p className="ownername">Mark Spencer</p>
+                                        <p className="ownerdesg">CEO,founder</p>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <div className="revbox">
+                                            <p className="revdesc">We’ve only recently started working with Pratichakra but they <br />seriously saved our butts with a last minute vendor change <br />and threw a truly incredible event for us on a really difficult<br /> timeline for our Fleet Week and Product Reveal day events.</p>
+                                            <p className="revdesc">They worked with us on budget, were super communicative,<br /> and Nikki and Brad were both very personally engaged,<br /> attended the event and were rockstars throughout. Two<br /> thumbs up from this end!</p>
+                                        </div>
+                                        <img className="ownerimg" src="images/Mark.svg" />
+                                        <p className="ownername">Mark Spencer</p>
+                                        <p className="ownerdesg">CEO,founder</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div> 
-                    </div>    
+                </div>    
             </motion.section>
     );
 }
