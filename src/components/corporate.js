@@ -1,28 +1,42 @@
-import React, { useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import Header from './navbar';
 import data from './data';
-function ServicePage(index){
+
+function ServicePage(){
+    const {serviceId} = useParams();
+    var obj = {};
+    var ind=0;
+    for (let index = 0; index < data.length; index++) {
+        if(data[index].slug==serviceId)
+        {
+            obj=data[index];
+            ind=index;
+        } 
+    }
+    console.log(obj);
     var i=0;
     var half1="";
     var half2 = "";
     const navigate = useNavigate();
-    const state = useLocation();
-    const obj = data[state.state.index];
     var size = obj.name.length;
     half1 = obj.name.substring(0,size/2);
     half2 = obj.name.substring(size/2);
-    const gotosubservice = (data,ind)=>{
-        ind===0 ? navigate('/services',{state : {name : data}}):
-        navigate('/seminarandconferences',{state : {name : data}})
+    const gotosubservice = (subservicename,ind)=>{
+        ind===0 ? navigate('/our-services'):
+        navigate('/services/'+obj.name+'/sub-service/'+subservicename)}
+    
+    const gotoNext = (indices)=>{
+        console.log(indices);
+        if(indices===11) ind=0;
+        navigate("/services/"+data[indices].slug);
+        
     }
-    const gotoNext = (ind)=>{
-        if(ind===11) ind=0;
-        navigate("/servicepage",{state : {index : ind}});
-    }
+    const next = "https://pratichakra-resources.s3.ap-south-1.amazonaws.com/pratichakra-images/images/"+obj.next;
+    const url = "https://pratichakra-resources.s3.ap-south-1.amazonaws.com/pratichakra-images/images/"+obj.carousel_slide;
+    const dots = "https://pratichakra-resources.s3.ap-south-1.amazonaws.com/pratichakra-images/images/Frame (1).png";
     return(
         <section className='frameimages'>
-            <Header></Header>
             <div className='row'>
                 <div className='col-lg-6 col-12 width43'>
                     <div >
@@ -34,19 +48,19 @@ function ServicePage(index){
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">  
-                                  <img src={obj.carousel_slide} className="d-block w-100 " alt="..." />
+                                  <img src={url} className="d-block w-100 " alt="..." />
                                   <div className="carousel-caption d-none d-md-block">
                                      <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
                                   </div>
                                 </div>
                                 <div className="carousel-item">
-                                  <img src={obj.carousel_slide} className="d-block w-100 " alt="..." />
+                                  <img src={url} className="d-block w-100 " alt="..." />
                                   <div className="carousel-caption d-none d-md-block">
                                      <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
                                   </div>
                                 </div>
                                 <div className="carousel-item">
-                                  <img src={obj.carousel_slide} className="d-block w-100 " alt="..." />
+                                  <img src={url} className="d-block w-100 " alt="..." />
                                   <div className="carousel-caption d-none d-md-block">
                                      <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
                                   </div>
@@ -56,9 +70,9 @@ function ServicePage(index){
                     </div>
                 </div>
                 <div className='col-lg-6 col-12 width57'>
-                    <div onClick={()=>{gotoNext((state.state.index)+1)}}>
-                        <img src='images/Frame (1).png' className='dots9'/>
-                        <img className='next' src={obj.next} />
+                    <div onClick={()=>{gotoNext(ind+1)}}>
+                        <img src={dots} className='dots9'/>
+                        <img className='next' src={next} />
                         <p className='nexttext'>NEXT ></p>
                     </div>
                     <div className='row'>
@@ -66,20 +80,19 @@ function ServicePage(index){
                             <p className='servicename'><span className='corp'>{half1}</span>{half2}</p>
                         </div>
                         <div className='col-lg-6 col-12'>
-                            <img align='right' src='images/Frame (1).png' className='dots6' />
+                            <img align='right' src={dots} className='dots6' />
                         </div>
                     </div>
                     <div className='subcatbox'>
-                             {obj.sub_categories.map((item,index)=>{
-                                 i=!i;
-                                 return(<div className={i?"col-lg-6 subcatdesc":"col-lg-6 subcatdesc2"}>
-                                             <p className='serviceswe' onClick={()=>{gotosubservice(item,index)}}>{item}<br /><br /><span className={i?'view':'know'}>View now ⟶</span></p>
-                                        </div>);
-                             })}
+                            {obj.sub_categories.map((item,index)=>{
+                                i=!i;
+                                return(<div className={i?"col-lg-6 subcatdesc":"col-lg-6 subcatdesc2"}>
+                                            <p className='serviceswe' onClick={()=>{gotosubservice(item.slug,index)}}>{item.subservice_name}<br /><br /><span className={i?'view':'know'}>View now ⟶</span></p>
+                                       </div>);
+                            })}
                     </div> 
                 </div>
-            </div>
-            
+            </div>  
         </section>
     );
 }

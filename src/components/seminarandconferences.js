@@ -1,13 +1,12 @@
 import React from 'react';
-import {Link, useLocation, useNavigate} from "react-router-dom";
+import {Link, useLocation, useNavigate, useParams} from "react-router-dom";
 import Header from './navbar';
 
 function Seminar_And_Conferences(){
-    const location = useLocation();
-    console.log(location.state.name);
+    const {subServiceId} = useParams();
     var half1 = "";
     var half2 = "";
-    const arr = location.state.name.split(" ");
+    const arr = subServiceId.split("-");
     const halfportion = Math.floor(arr.length/2);
     console.log(halfportion)
     for(var i=0;i<halfportion;i++)
@@ -22,12 +21,13 @@ function Seminar_And_Conferences(){
     const gotoService = ()=>{
         navigate('/services');
     }
+    const url = "https://pratichakra-resources.s3.ap-south-1.amazonaws.com/pratichakra-images/images/"+subServiceId+".png";
+    const dots = "https://pratichakra-resources.s3.ap-south-1.amazonaws.com/pratichakra-images/images/Frame (1).png";
     return(
         <section >
-            <Header></Header>
             <div className='row seminarrow'>
                 <div className='col-lg-2 col-12 bgcurves'>
-                    <img align='left' className='dots4' src='images/Frame (1).png'></img>
+                    <img align='left' className='dots4' src={dots}></img>
                     <div className='discoverservices' onClick={()=>{gotoService()}}>
                         <p>DISCOVER <span className='bolding'>SERVICES</span><br /><span className='downarrow'>˅</span></p>
                     </div>
@@ -58,7 +58,7 @@ function Seminar_And_Conferences(){
                     </div> 
                     {/* <p className='line2'></p> */}
                     <div className='col-lg-12 col-12'>
-                        <img className='rectangle3538' src='images/Rectangle 3538.png' ></img>
+                        <img className='rectangle3538' src={url} ></img>
                     </div>
                 </div>
             </div>

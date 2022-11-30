@@ -39,9 +39,12 @@ div.app {
   margin-top : -35px;
 }
 
-.nav-p{
-  margin-top: -13px;
-  margin-left: 34px;
+.nav-item{
+  transform: rotate(-90deg);
+  font-weight: 700 !important;
+  color: #0F0E0E !important;
+  margin-top: 60px !important;
+  font-size: 1.1rem !important;
 }
 
 .nav-p2{
@@ -59,21 +62,23 @@ div.app {
 }
 
 .headerline1{
-  margin-left: -430px;
-  height: 10.7%;
-  width: 21%;
-  background-color: #000000;
-  float: left;
-  position: absolute;
+  position: relative;
+  width: 2px;
+  height: 55px;
+  left: 80px;
+  top: 42px !important;
+  background-color: #0F0E0E;
+  transform: rotate(90deg);
 }
 
 .headerline2{
-  margin-left: -556px;
-  height: 10.7%;
-  width: 21%;
-  background-color: #ffffff;
-  float: left;
-  position: absolute;
+  position: relative;
+  width: 2px;
+  height: 55px;
+  left: 100px;
+  top: 42px !important;
+  background-color: white;
+  transform: rotate(90deg);
 }
 
 .headerline3{
@@ -162,8 +167,6 @@ div.app {
   max-width: 100%;
   height: auto;
 }
-
-
 
 .headerline21{
   position: relative;
@@ -254,7 +257,6 @@ div.app {
 
 .img1{
   height: auto;
-  margin-left: -14%;
   margin-top: 45%;
   width: 100%;
   z-index: -1;
@@ -262,7 +264,7 @@ div.app {
 
 .desc1{
   margin-top: 8%;
-  font-size: 1vw;
+  font-size: 1.5vw;
   line-height: 1.5;
 }
 
@@ -273,6 +275,8 @@ div.app {
   height: auto;
   position: absolute;
 }
+
+
 
 .learnmore{
   font-size: 15px;
@@ -302,7 +306,7 @@ div.app {
 .desc2{
   text-align: center;
   color: white;
-  font-size: 1.1vw;
+  font-size: 1.5vw;
 }
 
 .pratichakrateam{
@@ -331,7 +335,7 @@ div.app {
 }
 
 .planning{
-  font-size: 2vw;
+  font-size: 3vw;
   line-height: 1;
   margin-top: 25%
 }
@@ -355,6 +359,7 @@ div.app {
 
 .gray{
   color: gray;
+  font-size: 1.5vw;
 }
 
 .circle{
@@ -363,13 +368,14 @@ div.app {
 }
 
 .negotiating{
-  font-size: 2vw;
+  font-size: 3vw;
   line-height: 1;
   margin-top: 15%!important;
 }
 
 .searching{
   margin-top: 15%;
+  margin-left: 25%;
 }
 
 .underline2{
@@ -386,6 +392,7 @@ div.app {
 
 .gray2{
   color: gray;
+  font-size: 1.5vw;
 }
 
 .frame68{
@@ -422,7 +429,7 @@ div.app {
   background-color: #DDAB6C;
   margin-left: 39.3%;
   margin-bottom: 1%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .inverted{
@@ -433,7 +440,8 @@ div.app {
 .revbox{
   background-color: #F8F8F8;
   padding-top: 10%;
-  padding-left: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
   margin-top: -1%;
   padding-bottom: 10%;
   width: 86%;
@@ -491,7 +499,7 @@ div.app {
   margin-top: 4%;
   margin-left: 30%;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin-bottom: 4%;
 }
 
@@ -499,13 +507,17 @@ div.app {
   margin-top: 2%;
   margin-right: 33%;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin-bottom: 4%;
 }
 
 .frame7{
   margin-top: 0%;
   margin-left: 20%;
+}
+
+.frame8{
+  margin-left: 55%;
 }
 
 .frame17{
@@ -519,11 +531,21 @@ div.app {
 
 .offer3{
   margin-top: 4%;
-  margin-right: 33%;
   text-align: center;
-  font-size: 1vw;
+  margin-left: 35%;
+  font-size: 1.5vw;
   margin-bottom: 4%;
 }
+
+.offer4{
+  margin-top: 4%;
+  text-align: center;
+  /* margin-left: 35%; */
+  margin-right: 35%;
+  font-size: 1.5vw;
+  margin-bottom: 4%;
+}
+
 
 .bottom{
   padding-bottom: 10%;
@@ -752,8 +774,9 @@ div.app {
 }
 
 .dots6{
-  margin-top: 63%;
-  margin-right: 25%;
+  top: 42%;
+  right: 0;
+  position: absolute;
 }
 
 .caption{
@@ -799,7 +822,7 @@ div.app {
 }
 
 .servicename{
-    margin-top: 12%;
+    margin-top: 6%;
     font-size: 9vw;
     font-weight: 700;
     left: 0;
@@ -814,9 +837,9 @@ div.app {
 .subcatbox{
   display: flex;
   flex-direction: row;
-  height: 27%;
+  height: 30%;
   margin-left: -5.7%;
-  margin-top: -5.8%;
+  margin-top: 36%;
   overflow-x: auto;
 }
 
@@ -859,4 +882,263 @@ div.app {
 
 section{
   height: 100%;
+}
+
+@media (max-width: 600px){
+  .dots {margin-top: 25%;
+    margin-left: 5%;
+    max-width: 25%;
+    height: auto;
+    position: relative;
+    display: none;}
+
+  .approach{
+    font-size: 7vw;
+    line-height: .8;
+    margin-top: 10%!important;
+    position: relative;
+    text-align: center!important;
+    z-index: 5;
+  }
+
+  .word1{
+    font-weight: 700;
+    font-size: 14vw;
+  }
+
+  .desc1{
+    margin-top: 8%;
+    font-size: 3vw;
+    line-height: 1.5;
+  }
+
+  .img1 {
+    height: auto;
+    margin-left: 7%;
+    margin-top: 0%;
+    width: 82%;
+    z-index: -1;
+  }
+
+  .poster{
+    background-color: #0F0E0E;
+    padding-top: 3%;
+    padding-bottom: 0.5%;
+    z-index: 5;
+    margin-top: 8%;
+  }
+
+  .pratichakrateam{
+    color: #DDAB6C;
+    margin-left: 57%;
+    font-size: 2.5vw;
+  }
+
+  .desc2{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+  }
+
+  .dots2{
+    margin-top: -2%;
+    margin-left: 75%;
+    width: 21%;
+    z-index: 6;
+  }
+
+  .music-celebrate{
+    margin-top: 13%;
+    width: 73%;
+  }
+
+  .frame62{
+    height: auto;
+    margin-top: 11%;
+    width: 9%;
+    margin-left: 7%;
+  }
+
+  .planning{
+    font-size: 5vw;
+    line-height: 1;
+    margin-top: 38%;
+  }
+
+  .underline{
+    width: 70px;
+    height: 4px;
+    background-color: #DDAB6C;
+    margin-left: 61%;
+    margin-bottom: 7%;
+  }
+  
+  .gray{
+    color: gray;
+    font-size: 2vw;
+  }
+
+  .frame68{
+    margin-left: 2%;
+    width: 25%;
+    height: auto;
+    margin-top: 9%;
+  }
+
+  .negotiating{
+    font-size: 5vw;
+    line-height: 1;
+    margin-top: 15% !important;
+  }
+
+  .searching{
+    margin-top: 6%;
+    width: 100%;
+  }
+
+  .underline2 {
+    width: 70px;
+    height: 4px;
+    background-color: #DDAB6C;
+    margin-bottom: 6%;
+  }
+
+  .gray2 {
+    color: gray;
+    font-size: 2vw;
+  }
+  .desc3{
+    font-size: 1vw;
+  }
+
+  .underline3 {
+    width: 150px;
+    height: 4px;
+    background-color: #DDAB6C;
+    margin-left: 32.3%;
+    margin-bottom: 1%;
+    margin-top: 21%;
+  }
+
+  .rightimages {
+    margin-top: -4%;
+    width: 23%;
+    display: none;
+  }
+
+  .offer {
+    font-size: 5vw;
+    text-align: center;
+    margin-bottom: 8%;
+  }
+
+  .rightimages {
+    margin-top: -4%;
+    width: 23%;
+  }
+
+  .frame6 {
+    margin-top: 3%;
+    margin-left: -1%;
+    width: 84%;
+  }
+
+  .frame7 {
+    margin-top: -16%;
+    margin-left: 20%;
+  }
+
+  .frame8{
+    margin-top: 3%;
+    margin-left: 0%;
+    width: 68%;
+  }
+
+  .frame17 {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 77%;
+  }
+
+  .offer1 {
+    margin-top: 4%;
+    margin-left: -18%;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 4%;
+  }
+
+  .offer2 {
+    margin-top: 2%;
+    margin-right: 19%;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 4%;
+  }
+
+  .offer3{
+    margin-top: 4%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 4%;
+  }
+
+  .reviews {
+    text-align: center;
+    font-size: 6vw;
+    margin-top: 20%;
+    line-height: 0.5;
+  }
+
+  .underline4 {
+    width: 200px;
+    height: 4px;
+    background-color: #DDAB6C;
+    margin-left: 27%;
+    margin-bottom: 5%;
+  }
+
+  .dots1 {
+    margin-top: 30%;
+    display: none;
+  }
+
+  .revbox {
+    background-color: #F8F8F8;
+    padding-top: 10%;
+    padding-left: 3%;
+    margin-top: -1%;
+    padding-bottom: 10%;
+    width: 100%;
+  }
+
+  .revdesc {
+    font-size: 3vw;
+    color: #7D7D7D;
+  }
+
+  .ownerimg{
+    z-index: 5;
+    margin-left: 23%;
+    position: relative;
+    margin-top: 0%;
+  }
+
+  .ownername {
+    font-size: 1.2vw;
+    margin-top: 2%;
+    margin-left: 38%;
+    position: relative;
+    z-index: 5;
+  }
+
+  .ownerdesg {
+    position: relative;
+    margin-top: -3%;
+    font-size: 1.1vw;
+    color: #DDAB6C;
+    margin-left: 38%;
+    z-index: 5;
+  }
 }

@@ -3,31 +3,27 @@ import Container from 'react-bootstrap/Container';
 import Header from "./navbar";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
+import Aos from "aos";
 
 function HomeScreen(){
 
     useEffect(()=>{
-        
-    })
+       Aos.init({duration:2000});
+    },[])
 
     return(
-        <motion.section
-            initial={{opacity:0,y:-200}}
-            animate={{opacity:1,y:0}}
-            transition={{duration:1}}            
-        >
-            
-            <Header></Header>
+        <section>   
+            {/* <Header></Header> */}
             <div className="section1" id="section1">
-                <div className="row">
-                    <div className="col-lg-7 width57 col-12 ">
+                <div data-aos = "fade-down" className="row">
+                    <div className="col-lg-7 width57 col-6 ">
                         <img className="doublelines" src="images/double lines.svg"></img>
                         <p className="company-name" id="pratichakra">pratichakra</p>
                         <p className="headline1">We make sure your <br /><span style={{color:'#DDAB6C',opacity:2}}>special day goes</span>,<br />
                         without a <strike className="strike"><span className="hitch">hitch</span></strike></p>
                         <button className="btn1 btn">Get Started</button>
                     </div>
-                    <div className="col-lg-5 width43 col-12">
+                    <div className="col-lg-5 width43 col-6">
                         <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div className="carousel-indicators carousel-indicators1">
                               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" ></button>
@@ -58,7 +54,7 @@ function HomeScreen(){
                     </div>
                 </div>
             </div>
-        </motion.section>
+        </section>
     );  
 }
 

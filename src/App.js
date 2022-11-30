@@ -17,10 +17,10 @@ function App() {
         {/* <Header></Header> */}
         <Routes>
           <Route path='/' element={<HomeScreen></HomeScreen>} />
-          <Route path='/aboutus' element={<Aboutus></Aboutus> } />
-          <Route path='/services' element={<Services></Services>} />
-          <Route path='/seminarandconferences' element={<Seminar_And_Conferences></Seminar_And_Conferences>} />
-          <Route path='/servicepage' element={<ServicePage></ServicePage>} />
+          <Route path='/about' element={<Aboutus></Aboutus> } />
+          <Route path='/our-services' element={<Services></Services>} />
+          <Route path='/services/:serviceId' element={<ServicePage></ServicePage>} />
+          <Route path='/services/:serviceId/sub-service/:subServiceId' element={<Seminar_And_Conferences></Seminar_And_Conferences>} />
         </Routes>
     </BrowserRouter>
     </>
