@@ -4,6 +4,15 @@ import Header from "./navbar";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
 import Aos from "aos";
+import Name from '../images/Name.png'
+import Frame101 from '../images/Frame101.svg'
+import logo from '../images/logo.svg'
+import special_days from '../images/special_days.svg'
+import special_days2 from '../images/special_days2.svg'
+
+import './homescreen.css'
+
+import {MdCall} from 'react-icons/md'
 
 function HomeScreen(){
 
@@ -12,49 +21,48 @@ function HomeScreen(){
     },[])
 
     return(
-        <section>   
-            {/* <Header></Header> */}
-            <div className="section1" id="section1">
-                <div data-aos = "fade-down" className="row">
-                    <div className="col-lg-7 width57 col-6 ">
-                        <img className="doublelines" src="images/double lines.svg"></img>
-                        <p className="company-name" id="pratichakra">pratichakra</p>
-                        <p className="headline1">We make sure your <br /><span style={{color:'#DDAB6C',opacity:2}}>special day goes</span>,<br />
-                        without a <strike className="strike"><span className="hitch">hitch</span></strike></p>
-                        <button className="btn1 btn">Get Started</button>
+        <div style={{backgroundColor: '#141414', height :'90%', backgroundPosition: 0}}>
+
+                <div style={{paddingBottom: 30}}>
+                    <div style={{flex:1, flexDirection: 'row'}}>
+                            <img src={logo} style={{height:200, width: 200, paddingLeft:50,marginTop: 15}}></img>
+                            <img src={Name} style={{height:85, width: 150, paddingLeft:30,marginTop: 15}}></img>
+                        </div>     
+                        <div style={{flex:1}}>
+                            <img align="right" className="dots2" src="images/Frame (1).png" style={{marginTop: -210}}></img>
                     </div>
-                    <div className="col-lg-5 width43 col-6">
-                        <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div className="carousel-indicators carousel-indicators1">
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" ></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+                </div>
+
+                <div align='right' >
+                    <div style={{flex:1, marginRight:250, marginTop: 0}}>
+                        <h2 style={{color: 'white', fontFamily: 'Poppins-Regular', fontSize:40}}>We make sure your</h2>
+                    </div>
+                    <div style={{flex:1, marginRight:90, marginTop: 0}}>
+                        <img src={special_days}/>
+                    </div>
+                    <div style={{flex:1, marginRight:100, marginTop:-88}}>
+                        <img src={special_days2}/>
+                    </div>
+                    <div style={{flex:1, marginRight:210, marginTop: -25}}>
+                        <h2 style={{color: 'white', fontFamily: 'Poppins-Regular',  fontSize:42}}>goes without a hitch</h2>
+                    </div>
+                    <div style={{flex:1,flexDirection:'row', height: 'auto', width: 310, backgroundColor: 'white', marginRight:100, marginTop: 50, borderRadius: 14}}>
+                        <div style={{flex: 1,flexDirection: 'row',padding: 5, flexWrap: 'wrap'}}>
+                            <div style={{flex: 1, flexDirection: 'row', flexWrap: 'wrap'}}>
+                              
                             </div>
-                            <div className="carousel-inner">
-                                <div className="carousel-item active ">
-                                    <img className="banner1" src="images/Rectangle 8 (1).png"></img>
-                                    <div class="carousel-caption d-none d-md-block">
-                                      <p>phone +91-9818523999  &nbsp; &nbsp; email social@pratichakra.com</p>
-                                    </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="banner1" src="images/Corporate.png"></img>
-                                    <div class="carousel-caption d-none d-md-block">
-                                      <p>phone +91-9818523999  &nbsp; &nbsp; email social@pratichakra.com</p>
-                                    </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="banner1" src="images/Wedding.png"></img>
-                                    <div class="carousel-caption d-none d-md-block">
-                                      <p>phone +91-9818523999  &nbsp; &nbsp; email social@pratichakra.com</p>
-                                    </div>
-                                </div>
+                            <div style={{flex:1, flexDirection: 'row'}}>
+                                <h3 style={{paddingRight: 20, fontFamily: 'Poppins-Regular'}}><span style={{paddingRight: 10}}><MdCall/></span>Connect with us</h3>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+                <div >
+                    <img className="app__image" src={Frame101}/>
+                </div>
+        </div>
+           
     );  
 }
 

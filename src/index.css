@@ -5,6 +5,10 @@
 section{
   scroll-snap-align: start;
 } */
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../src/fonts/Poppins-Regular.ttf);
+}
 html {
   height: 100%;
 }
@@ -347,6 +351,32 @@ div.app {
   margin-left: 90%;
   margin-bottom: 2%;
 }
+
+.app__navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  background: rgba(255, 255, 255, 0);
+  position: fixed;
+  z-index: 2;
+}
+.app__navbar-links{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.app__navbar-links li{
+  margin: 0 1rem;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+
 
 .desc3{
   text-align: right;
@@ -905,6 +935,10 @@ section{
     font-weight: 700;
     font-size: 14vw;
   }
+  .app__image{
+      marginTop: -80;
+      filter: grayscale(1);
+  }
 
   .desc1{
     margin-top: 8%;
@@ -942,6 +976,12 @@ section{
 
   .dots2{
     margin-top: -2%;
+    margin-left: 75%;
+    width: 21%;
+    z-index: 6;
+  }
+  .dots3{
+    margin-top: -8%;
     margin-left: 75%;
     width: 21%;
     z-index: 6;
@@ -1142,3 +1182,25 @@ section{
     z-index: 5;
   }
 }
+
+/* #navbar_self li Link{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+#navbar_self li Link:hover,
+#navbar_self li Link.active{
+  color: #088178;
+}
+#navbar_self li Link.active::after,
+#navbar_self li Link:hover::after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background:  #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+} */

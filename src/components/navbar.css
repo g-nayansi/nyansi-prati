@@ -1,0 +1,121 @@
+#header_self{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0,0, 0,0.06 );
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.app__navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0);
+    position: fixed;
+    z-index: 2;
+
+  }
+  .app__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+  }
+  .app_navbar-link{
+    display: inline-block;
+    margin: 0 1rem;
+    cursor: pointer;
+    flex-direction: column;
+    background-color:  rgba(221, 170, 108, 0);
+    width: auto;
+    vertical-align: top;
+    height: 70px;
+    align-items: center;
+    padding: 2%;
+    width: max-content;
+    align-self: flex-start;
+  }
+  .app_navbar-link_active{
+    display: inline-block;
+    margin: 0 1rem;
+    cursor: pointer;
+    flex-direction: column;
+    background-color: rgba(221, 171, 108, 0.1);
+    width: auto;
+    vertical-align: top;
+    height: 70px;
+    align-items: center;
+    padding: 2%;
+    width: max-content;
+    align-self: flex-start;
+   
+  }
+
+/* .app__navbar-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 3%;
+}
+.app__navbar-links_active li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 3%;
+} */
+.app__navbar-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Poppins-Regular';
+}
+
+.app__li_tab{
+    
+}
+.underline_nav{
+    width: max-contents;
+    height: 4px;
+    align-self:flex-end;
+    
+    background-color:  rgba(221, 171, 108, 1);
+  }
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:  #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
