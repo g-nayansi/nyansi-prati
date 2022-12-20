@@ -13,6 +13,8 @@ import special_days2 from '../images/special_days2.svg'
 import './homescreen.css'
 
 import {MdCall} from 'react-icons/md'
+import Aboutus from "./aboutus";
+import Services from "./services";
 
 function HomeScreen(){
 
@@ -21,29 +23,32 @@ function HomeScreen(){
     },[])
 
     return(
-        <div style={{backgroundColor: '#141414', height :'90%', backgroundPosition: 0}}>
+        <>
+      
+        <section>
+            <div className="app__home">
 
-                <div style={{paddingBottom: 30}}>
-                    <div style={{flex:1, flexDirection: 'row'}}>
-                            <img src={logo} style={{height:200, width: 200, paddingLeft:50,marginTop: 15}}></img>
-                            <img src={Name} style={{height:85, width: 150, paddingLeft:30,marginTop: 15}}></img>
+                <div className="app__home_first">
+                    <div className="name__logo" >
+                            <img className="__logo" src={logo}></img>
+                            <img className="__name" src={Name}></img>
                         </div>     
                         <div style={{flex:1}}>
-                            <img align="right" className="dots2" src="images/Frame (1).png" style={{marginTop: -210}}></img>
+                            <img align="right" className="dots2" src="images/Frame (1).png" style={{marginTop: -210, zIndex:1}}></img>
                     </div>
                 </div>
 
                 <div align='right' >
-                    <div style={{flex:1, marginRight:250, marginTop: 0}}>
+                    <div style={{flex:1, marginRight:'14rem', marginTop: 0}}>
                         <h2 style={{color: 'white', fontFamily: 'Poppins-Regular', fontSize:40}}>We make sure your</h2>
                     </div>
-                    <div style={{flex:1, marginRight:90, marginTop: 0}}>
+                    <div style={{flex:1, marginRight:'5.8rem', marginTop: 0}}>
                         <img src={special_days}/>
                     </div>
-                    <div style={{flex:1, marginRight:100, marginTop:-88}}>
+                    <div style={{flex:1, marginRight:'6.2rem', marginTop:'-5.5rem'}}>
                         <img src={special_days2}/>
                     </div>
-                    <div style={{flex:1, marginRight:210, marginTop: -25}}>
+                    <div style={{flex:1, marginRight:'14rem', marginTop: -25}}>
                         <h2 style={{color: 'white', fontFamily: 'Poppins-Regular',  fontSize:42}}>goes without a hitch</h2>
                     </div>
                     <div style={{flex:1,flexDirection:'row', height: 'auto', width: 310, backgroundColor: 'white', marginRight:100, marginTop: 50, borderRadius: 14}}>
@@ -62,6 +67,10 @@ function HomeScreen(){
                     <img className="app__image" src={Frame101}/>
                 </div>
         </div>
+        </section>
+        <Aboutus/>
+        <Services/>
+        </>
            
     );  
 }

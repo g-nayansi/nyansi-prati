@@ -10,7 +10,11 @@ section{
   src: url(../src/fonts/Poppins-Regular.ttf);
 }
 html {
-  height: 100%;
+
+  scroll-snap-type: y mandatory;
+}
+section{
+  scroll-snap-align: start;
 }
 
 body {

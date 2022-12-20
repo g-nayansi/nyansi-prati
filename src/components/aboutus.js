@@ -4,6 +4,7 @@ import {useLocation} from 'react-router-dom';
 import Header from "./navbar";
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import './aboutus.css'
 
 function Aboutus(){
     let location = useLocation();
@@ -12,10 +13,11 @@ function Aboutus(){
         Aos.init({duration:2000});
     },[]);
     return (
-        <section>       
+        <section >       
                 {/* <div>
                     // {/* <Header></Header> 
                 </div> */}
+            <section>
                 <div data-aos = "fade-up" className="row">
                     <div className="col-lg-3 col-12">
                         <img className="dots" src="images/Frame (1).png"></img>
@@ -36,6 +38,9 @@ function Aboutus(){
                      you soon with amazing ideas."</p>
                       <p className="pratichakrateam">-Pratichakra Team</p>
                 </div>
+            </section>
+
+            <section>
                 <div className="bgcurves">
                 <img align="right" className="dots2" src="images/Frame (1).png"></img>
                 <div className="container">
@@ -154,6 +159,9 @@ function Aboutus(){
                     </div> 
                 </div>    
             </section>
+                
+                
+        </section>
     );
 }
 

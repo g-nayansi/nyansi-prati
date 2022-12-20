@@ -20,7 +20,7 @@ function Services(){
     }
 
     return(
-        <div>
+        <section>
             <div className="row">
                 <div className="col-lg-6 col-12">
                     <p className="ourservices">our<br /><span className='services'>services</span></p>
@@ -51,7 +51,7 @@ function Services(){
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

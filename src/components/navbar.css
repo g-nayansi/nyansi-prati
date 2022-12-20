@@ -7,7 +7,7 @@
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0,0, 0,0.06 );
     z-index: 999;
-    position: sticky;
+    
     top: 0;
     left: 0;
 }
@@ -20,7 +20,6 @@
   
     background-color: #ffffff;
     background: rgba(255, 255, 255, 0);
-    position: fixed;
     z-index: 2;
 
   }
@@ -119,3 +118,96 @@
     bottom: -4px;
     left: 20px;
 }
+
+.app__navbar-menu{
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+  z-index:2;
+
+  
+}
+.app__navbar-menu svg{
+      width: 70%;
+      height: 70%;
+      color: #DDAB6C;
+  }
+  .app__navbar-menu div{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 5;
+      padding: 1rem;
+      width: 80%;
+      height: 100vh;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      flex-direction: column;
+      
+      background-color: white;
+      background-size: cover;
+      background-repeat: repeat;
+
+      box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+
+  }
+  .app__navbar-menu div svg{
+    width: 10%;
+    height: 10%;
+    color: black;
+    margin: 0.5rem 1rem;
+}
+.app__navbar-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.app__navbar-menu ul li{
+  margin: 1rem;
+}
+.app__navbar-menu ul li a{
+  color: rgb(184, 184, 184);
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+  
+
+@media screen and (max-width: 900px) {
+  .app__navbar{
+      display: none;
+
+  }
+  
+}
+
+/* @media screen and (min-width:900px) {
+  .app__navbar-menu{
+        display: none;
+    }
+  .app__navbar-menu div{
+    display: none;
+  }
+}
+@media screen and (max-width:450px){
+  .app__navbar-menu{
+    display: block;
+  }
+} */
+  

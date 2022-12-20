@@ -4,8 +4,13 @@ import React, {useState} from 'react';
 import {Link, useLocation, useNavigate} from "react-router-dom";
 import './navbar.css'
 
+import {HiMenuAlt4, HiX} from 'react-icons/hi';
+import {motion} from 'framer-motion';
+import {CgMenuGridO} from 'react-icons/cg';
+
 function Header(){
   const [isActive, setIsActive] = useState('home');
+  const [toggle, setToggle] = useState(false);
 
 
   const ClickOnHome = (context) => { 
@@ -20,7 +25,7 @@ function Header(){
 
 
    return (
-    <div className='app__navbar'>
+    <nav className='app__navbar'>
         {/* <Navbar expand="lg" fixed="top">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -60,39 +65,31 @@ function Header(){
       </ul>
       </div>
 
+              {/* ==========for menu================
+              <div  className='app__navbar-menu'>
+                <CgMenuGridO onClick={() => setToggle(true)}/>
 
-        {/* <div className='col-lg-4 col-4 '>
-            <div className='row navbar'>
-              <div className='col-lg-3 col-6'>
-                  <p className='nav-p'>home</p>
-              </div>
-              <div className='col-lg-2 col-6'>
-              <div className='headerline1'></div>
-              </div>
-            </div>
-        </div>
-        <div className='col-lg-5 col-6'>
-            <div className='row navbar'>
-              <div className='col-lg-2 col-6'>
-                <p className='nav-p2'>about</p>   
-              </div>
-              <div className='col-lg-2 col-6'>
-              <div className='headerline2'></div>
-              </div>
-            </div>
-        </div>
-        <div className='col-lg-2 col-2'>
-            <div className='row navbar'>
-              <div className='col-lg-3 col-6'>
-                  
-                  <p className='nav-p3'>services</p>
-              </div>
-              <div className='col-lg-2 col-6'>
-              <div className='headerline3'></div>
-              </div>
-            </div>
-   </div> */}
-    </div> 
+                {
+                    toggle && (
+                        <motion.div
+                            whileInView={{x:[300,0]}}
+                            transition={{duration:0.85,ease: 'easeInOut'}}
+                        >
+                            <HiX onClick={() => setToggle(false)} />
+                            <ul >
+                            {['Home', 'About Us','Services'].map((item)=> (
+                            <li  key={item}>
+                               <a href={``} onClick={() => setToggle(false)}>{item} </a>
+                            </li>
+                         ))}
+                         </ul>
+                        </motion.div>
+                    )
+                } */}
+        {/* </div> */}
+
+
+    </nav> 
    );
 }
 
