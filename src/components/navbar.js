@@ -13,7 +13,7 @@ function Header(){
   const [toggle, setToggle] = useState(false);
 
 
-  const ClickOnHome = (context) => { 
+  const ClickOnHome = () => { 
   setIsActive('home');
   };
   const ClickOnAbout = () =>{

@@ -73,7 +73,7 @@ function ServicePage(){
                     <div onClick={()=>{gotoNext(ind+1)}}>
                         <img src={dots} className='dots9'/>
                         <img className='next' src={next} />
-                        <p className='nexttext'>NEXT ></p>
+                        <p className='nexttext'>NEXT</p>
                     </div>
                     <div className='row'>
                         <div className='col-lg-12 col-12'>

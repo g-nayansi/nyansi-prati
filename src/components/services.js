@@ -8,6 +8,8 @@ import {motion} from 'framer-motion';
 import { Link, useNavigate } from "react-router-dom";
 import Aos from "aos";
 
+import './services.css'
+
 function Services(){
     useEffect(()=>{
         Aos.init({duration:2000});

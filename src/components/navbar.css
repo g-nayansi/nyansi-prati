@@ -41,7 +41,7 @@
     vertical-align: top;
     height: 70px;
     align-items: center;
-    padding: 2%;
+    padding: 4% 2%;
     width: max-content;
     align-self: flex-start;
   }
@@ -55,9 +55,9 @@
     vertical-align: top;
     height: 70px;
     align-items: center;
-    padding: 2%;
     width: max-content;
     align-self: flex-start;
+    padding: 4% 2%;
    
   }
 
@@ -76,7 +76,7 @@
 .app__navbar-links li a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     font-family: 'Poppins-Regular';

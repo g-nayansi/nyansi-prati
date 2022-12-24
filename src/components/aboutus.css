@@ -1,3 +1,217 @@
 section{
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
+}
+
+@media screen and (max-width: 470px) {
+    .about_us{
+        margin-top: -25rem;
+    }
+
+    .approach{
+        text-align: start !important;
+        padding: 0% 13% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+    .desc1{
+        font-size: 0.75rem;
+    }
+    .desc2{
+        font-size: 13.3617px;
+        text-align: center;
+        padding: 0% 11%;
+
+    }
+    .pratichakrateam{
+        font-size: 1rem;
+        font-weight: 600;
+        
+    }
+    .rightarrow0{
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    .music-celebrate{
+        margin-top: 13%;
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 2rem;
+      }
+    .frame62{
+        height: auto;
+        margin-top: 11%;
+        width: 9%;
+        margin-left: 10%;
+    }
+    .planning{
+        font-size: 5vw;
+        line-height: 1;
+        margin-top: 85%;
+        
+    }
+    .desc3{
+        font-size: 1vw;
+    }
+    .gray{
+        font-size: 0.6rem;
+    }
+    .app__planning{
+        
+    }
+    .negotiating {
+        font-size: 5vw;
+        line-height: 1;
+        margin-top: 55% !important;
+    }
+    .searching {
+        margin-top: 6%;
+        width: 100%;
+        margin-left: -1.5rem;
+        z-index: 3;
+    }
+    .gray2{
+        font-size: 0.6rem;
+    }
+    .frame68{
+        margin-left: 93%;
+        width: 30%;
+        height: auto;
+        margin-top: -20rem;
+       
+    }
+    .app__offer{
+        margin-left: 12%;
+    }
+    .underline3 {
+        width: 92px;
+        height: 3px;
+        background-color: #DDAB6C;
+        margin-left: 0%;
+        margin-bottom: 1%;
+        margin-top: 21%;
+    }
+    .offer {
+        font-size: 8vw;
+        text-align: start;
+        margin-bottom: 8%;
+        margin-left: 0%;
+    }
+    .frame6 {
+        margin-top: 3%;
+        margin-left: 10%;
+        
+        height: 4rem;
+    }
+    .frame7 {
+        margin-top: -11%;
+        margin-left: 20%;
+        height: 5rem;
+    }
+    .frame8 {
+        margin-top: 3%;
+        margin-left: 15%;
+        height: 4rem;
+    }
+    .frame17 {
+        margin-top: 2%;
+        margin-left: 1%;
+        height: 4rem;
+    }
+    .offer1 {
+        margin-top: 2%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 3vw;
+        margin-bottom: 4%;
+    }
+    .offer2 {
+        margin-top: 6%;
+        margin-left: 1%;
+        text-align: center;
+        font-size: 3vw;
+        
+    }
+    .offer3 {
+        margin-top: 2%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 3vw;
+        margin-bottom: 4%;
+    }
+    .offer4 {
+        margin-top: 2%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 3vw;
+        margin-bottom: 4%;
+    }
+    .app__offers{
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .underline4 {
+        width: 90px;
+        height: 4px;
+        background-color: #DDAB6C;
+        margin-left: 49%;
+        margin-bottom: 5%;
+    }
+    .inverted{
+        margin-top: 0%;
+        z-index: 5;
+        height: 2rem;
+        margin-left: 2rem;
+        margin-bottom: -5%;
+    }
+    .revbox {
+        background-color: #F8F8F8;
+        padding-top: 18%;
+        padding-left: 3%;
+        margin-top: -1%;
+        padding-bottom: 10%;
+        width: 90%;
+        margin: 4%;
+        z-index: inherit;
+
+    }
+    .ownerimg__block{
+        text-align: center;
+        padding-top: 9%;
+        margin-top: -90%;
+        margin-bottom: 60%;
+        z-index: 5;
+        margin-left: 35%;
+    }
+    .ownerimg {
+        z-index: 5;
+        margin-left: 23%;
+        position: relative;
+        margin-top: -0%;
+        height: 5rem;
+    }
+    .ownername {
+        font-size: 4vw;
+        margin-top: 2%;
+        margin-left: 38%;
+        font-weight: 600;
+        position: relative;
+        z-index: 5;
+    }
+    .ownerdesg {
+        position: relative;
+        margin-top: -2.5%;
+        font-size: 3.2vw;
+        font-weight: 400;
+        color: #DDAB6C;
+        margin-left: 38%;
+        z-index: 5;
+      }
+      .owner__text{
+        margin-left: -180%;
+        margin-top: -25%;
+      }
+
 }

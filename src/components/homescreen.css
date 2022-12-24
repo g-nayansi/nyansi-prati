@@ -1,7 +1,10 @@
 
 .app__home{
     background-color: #141414;
-    height: 100%;
+    height:46rem;
+    margin-bottom: 25rem;
+    width: 100%;
+    background-repeat: repeat-x;
     background-position: 0;
     scroll-snap-align: start;
 }
@@ -10,10 +13,185 @@
 }
 .name__logo{
     display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 470px) {
+    .app__home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: #141414;
+        background-image: url(../images/group2.png);
+        height: 100%;
+        width: auto;
+        background-repeat: repeat-x;
+        background-position: 0;
+        scroll-snap-align: start;
+    }
+    .dots2{
+        margin-top: -2%;
+        margin-left: -45%;
+        width: 26%;
+        z-index: 6;
+      }
+    .connect_btn{
+        display: flex;
+        flex-direction:row;
+        height: auto !important;
+        width: fit-content !important;
+        background-color: white;
+        justify-content: center;
+        padding: 0% 5%;
+        margin-right:5.8rem !important;
+        margin-top: 2rem !important;
+        text-align: center;
+        border-radius: 0.7rem;
+    }
+    .text_connect{
+        font-family: 'Poppins-Regular';
+        font-weight: 600 !important;
+        font-size: 0.9rem !important;
+        text-align: center !important;
+        /* padding-top: -1% !important; */
+    }
+    .text_connect span{
+        margin-right: .3rem !important;
+        font-size: large;
+        /* padding-top: -2px !important; */
+    }
+    .app__images{
+        margin-top: -21rem !important;
+        margin-bottom: 10rem;
+    }
+    .textss{
+        
+        /* padding-bottom: 15rem !important; */
+        margin-top: 12rem;
+    }
+    .name__logo{
+        display: inline-flex;
+        margin-right: 20%;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .app__home_first{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .app__image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .app__image{
+    
+        justify-content: center;
+        height: 20rem;
+        scale: 1.4;
+        margin-left: -2rem;
+        margin-top: -15rem;
+        overflow: hidden;
+    }
+    .__logo {
+        align-items: center;
+        align-self: center;
+       
+    }
+    .__name{
+        margin-top: -2%!important;
+        height: 5rem !important;  
+        width: 6rem !important;
+    }
+    
+    .L1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%
+    }
+    .L1 label {
+        color: white;
+        font-family: 'Poppins-Regular';
+        font-size:18px!important;
+        margin: 0;
+        padding-left: 6.2rem;
+        
+    }
+    .L3{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+    }
+    .L3 label{
+        font-size: 18px!important;
+        margin: 0;
+        justify-content: center;
+        padding-left: 6rem;
+    }
+
+    .style_name{
+        margin-top: -24%;
+        margin-left: 18%;
+        margin-bottom: -24%;
+    }
+    .L2-1 img{
+        margin: 0;
+        height: 15rem;
+        width: 15rem;
+        justify-content: center;
+        margin-right: 3rem;
+        
+    }
+    .L2-2 img{
+        margin-right: 3rem;
+        height: 15rem;
+        width: 15rem;
+        margin-top: -8.5rem;
+        justify-content: center;
+
+    }
+  
     
 }
-@media screen and (min-width: 850px) {
+
+.L1{
+    margin-right: 13rem;
+    flex: 1;
     
+}
+.L1 label {
+    color: white;
+    font-family: 'Poppins-Regular';
+    font-size:40px;
+    
+}
+.L2-1{
+    margin-right: 5.8rem;
+    flex: 1;
+    
+}
+.L2-2{
+    margin-right: 6.2rem;
+    flex: 1;
+    margin-top: -5.5rem;
+    
+}
+.L3{
+    flex: 1;
+    margin-right: 14rem;
+    margin-top: -1.5rem;
+}
+.L3 label{
+    color: white;
+    font-family: 'Poppins-Regular';
+    font-size:42px;
 }
 .__logo {
     height: 13rem;
@@ -30,4 +208,33 @@
 .app__image{
     margin-top: -80px;
     filter: grayscale(1);
+    width: 100%;
+}
+
+.connect_btn{
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    width: 15rem;
+    background-color: white;
+    margin-right:6rem;
+    margin-top: 3rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    z-index: 7;
+    position: relative;
+}
+.text_connect{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-family: 'Poppins-Regular';
+    font-weight: 600;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.text_connect span{
+    padding-right: 1rem;
+}
+.Connect_with_US{
+    text-decoration: none;
 }

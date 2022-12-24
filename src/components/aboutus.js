@@ -18,7 +18,7 @@ function Aboutus(){
                     // {/* <Header></Header> 
                 </div> */}
             <section>
-                <div data-aos = "fade-up" className="row">
+                <div data-aos = "fade-up" className="row about_us">
                     <div className="col-lg-3 col-12">
                         <img className="dots" src="images/Frame (1).png"></img>
                     </div>
@@ -38,12 +38,12 @@ function Aboutus(){
                      you soon with amazing ideas."</p>
                       <p className="pratichakrateam">-Pratichakra Team</p>
                 </div>
-            </section>
+            </section> 
 
-            <section>
+            <section>          
                 <div className="bgcurves">
                 <img align="right" className="dots2" src="images/Frame (1).png"></img>
-                <div className="container">
+                <div className="container  app__planning">
                     <div className="row">
                         <div data-aos="fade-up" className="col-lg-5 col-6">
                             <img src='images/Music - Celebrate.svg' className="music-celebrate"/>
@@ -81,7 +81,7 @@ function Aboutus(){
                     </div>
                 </div>
                     <div className="row">
-                        <div className="col-lg-12 col-12">
+                        <div className="col-lg-12 col-12 app__offer">
                             <div className="underline3"></div>
                             <p className="offer"><span className="bolding">What</span> we offer ?</p>
                             {/* <img align="right" className="rightimages" src="images/Frame (1).png"></img> */}
@@ -90,22 +90,22 @@ function Aboutus(){
                     <div data-aos = "fade-up" className="container">
                         <div className="row">
                             <div className="col-lg-1 col-12"></div>
-                            <div className="col-lg-5 col-6">
+                            <div className="col-lg-5 col-6 app__offers">
                                 <img className="frame6" src="images/handshake.svg" />
                                 <p className="offer1"><span className="bolding"> Professional Staff</span><br />with quality guranteed</p>
                             </div>
-                            <div className="col-lg-5 col-6">
+                            <div className="col-lg-5 col-6 app__offers">
                                 <img className="frame7" src="images/buzzer.svg"></img>
                                 <p className="offer2"><span className="bolding">Diverse Vendors Network</span><br /> across India</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-lg-1 col-12"></div>
-                            <div className="col-lg-5 col-6">
+                            <div className="col-lg-5 col-6 app__offers">
                                 <img className=" frame8" src="images/Group1780.svg" />
                                 <p className="offer3"><span className="bolding">Avail Cost Effective</span><br /> premium services</p>
                             </div>
-                            <div className="col-lg-5 col-6">
+                            <div className="col-lg-5 col-6 app__offers">
                                 <img className="frame17" src="images/Group 1779.svg"></img>
                                 <p className="offer4"><span className="bolding">24x7 Support</span><br />for our customers</p>
                             </div>
@@ -114,7 +114,7 @@ function Aboutus(){
                     <p className="reviews">Recent <span className="bolding">Reviews</span></p>
                     <div className="underline4"></div>
                     <div className="row">
-                        <div className="col-lg-3 col-12">
+                        <div className="col-lg-3 col-12 ">
                             <img className="dots1" src="images/Frame (1).png"/>
                         </div>
                         <div className="col-lg-7 col-12">
@@ -131,27 +131,41 @@ function Aboutus(){
                                             <p className="revdesc">We’ve only recently started working with Pratichakra but they seriously saved our butts with a last minute vendor change and threw a truly incredible event for us on a really difficult timeline for our Fleet Week and Product Reveal day events.</p>
                                             <p className="revdesc">They worked with us on budget, were super communicative, and Nikki and Brad were both very personally engaged, attended the event and were rockstars throughout. Two thumbs up from this end!</p>
                                         </div>
+                                    <div className="ownerimg__block">
                                         <img className="ownerimg" src="images/Mark.svg" />
-                                        <p className="ownername">Mark Spencer</p>
-                                        <p className="ownerdesg">CEO,founder</p>
+                                        <div className="owner__text">
+                                            <p className="ownername">Mark Spencer</p>
+                                            <p className="ownerdesg">CEO,founder</p>
+                                        </div>
+                                       
+                                    </div>
                                     </div>
                                     <div className="carousel-item">
                                         <div className="revbox">
                                             <p className="revdesc">We’ve only recently started working with Pratichakra but they seriously saved our butts with a last minute vendor change and threw a truly incredible event for us on a really difficult timeline for our Fleet Week and Product Reveal day events.</p>
                                             <p className="revdesc">They worked with us on budget, were super communicative, and Nikki and Brad were both very personally engaged, attended the event and were rockstars throughout. Two thumbs up from this end!</p>
-                                        </div>
+</div>
+                                    <div className="ownerimg__block">
                                         <img className="ownerimg" src="images/Mark.svg" />
-                                        <p className="ownername">Mark Spencer</p>
-                                        <p className="ownerdesg">CEO,founder</p>
+                                        <div className="owner__text">
+                                            <p className="ownername">Mark Spencer</p>
+                                            <p className="ownerdesg">CEO,founder</p>
+                                        </div>
+                                    </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className="revbox">
+                                        <div                                        div className="revbox">
                                             <p className="revdesc">We’ve only recently started working with Pratichakra but they seriously saved our butts with a last minute vendor change and threw a truly incredible event for us on a really difficult timeline for our Fleet Week and Product Reveal day events.</p>
                                             <p className="revdesc">They worked with us on budget, were super communicative, and Nikki and Brad were both very personally engaged, attended the event and were rockstars throughout. Two thumbs up from this end!</p>
                                         </div>
+                                    <div className="ownerimg__block">
                                         <img className="ownerimg" src="images/Mark.svg" />
-                                        <p className="ownername">Mark Spencer</p>
-                                        <p className="ownerdesg">CEO,founder</p>
+                                        <div className="owner__text">
+                                            <p className="ownername">Mark Spencer</p>
+                                            <p className="ownerdesg">CEO,founder</p>
+                                        </div>
+                                    </div>
+                                        
                                     </div>
                                 </div>
                             </div>
