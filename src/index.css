@@ -6,8 +6,29 @@ section{
   scroll-snap-align: start;
 } */
 @font-face {
+  font-family: Poppins-Light;
+  src: url(../src/fonts/Poppins-Light.ttf);
+}
+@font-face {
   font-family: Poppins-Regular;
   src: url(../src/fonts/Poppins-Regular.ttf);
+
+}
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../src/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(../src/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../src/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: url(../src/fonts/Poppins-ExtraBold.ttf);
 }
 html {
 
@@ -237,6 +258,32 @@ div.app {
   background-color: #DDAB6C !important;
 }  
 
+
+
+
+.carousel-indicators5{
+  left: 5% !important;
+  bottom: 0% !important;
+  height: 55%;
+  margin-left: 30%!important;
+  /* width: 15% !important; */ 
+
+}
+
+.carousel-indicators5 .active {
+  background-color: #DDAB6C !important;
+} 
+
+.carousel-indicators{
+  right: 43% !important;
+}
+
+.Indicators{
+  top:24rem;
+  align-items: center;
+  /* margin-left: 55%; */
+}
+
 .btn1{
   margin-left: 15% !important;
   margin-right: auto !important;
@@ -263,6 +310,8 @@ div.app {
 .word1{
   font-weight: 700;
   font-size: 8vw;
+  font-family: "Poppins-SemiBold";
+  letter-spacing: -8px;
 }
 
 .img1{
@@ -276,10 +325,11 @@ div.app {
   margin-top: 8%;
   font-size: 1.2vw;
   line-height: 1.5;
+  font-family: "Poppins-Regular";
 }
 
 .dots{
-  margin-top: 25%;
+  margin-top: 5%;
   margin-left: 5%;
   max-width: 100%;
   height: auto;
@@ -292,6 +342,7 @@ div.app {
   font-size: 15px;
   font-weight: 600;
   margin-top: 2%;
+  font-family: "Poppins-Medium";
 }
 
 .ellipse2{
@@ -317,12 +368,14 @@ div.app {
   text-align: center;
   color: white;
   font-size: 1.2vw;
+  font-family: "Poppins-Regular";
 }
 
 .pratichakrateam{
   color: #DDAB6C;
   margin-left: 60%;
   font-size: 1.5vw;
+  font-family: "Poppins-SemiBold";
 }
 
 .dots2{
@@ -330,6 +383,7 @@ div.app {
   margin-left: 80%;
   position: absolute;
   z-index: 6;
+  width: 13%;
 }
 
 .frame62{
@@ -347,7 +401,8 @@ div.app {
 .planning{
   font-size: 2.5vw;
   line-height: 1;
-  margin-top: 25%
+  margin-top: 25%;
+  font-family: "Poppins-Medium";
 }
 
 .underline{
@@ -396,6 +451,9 @@ div.app {
 .gray{
   color: gray;
   font-size: 1.2vw;
+  width: 100%;
+  padding-left: 9rem;
+  font-family: "Poppins-Medium";
 }
 
 .circle{
@@ -407,6 +465,7 @@ div.app {
   font-size: 2.5vw;
   line-height: 1;
   margin-top: 15%!important;
+  font-family: "Poppins-SemiBold";
 }
 
 .searching{
@@ -428,7 +487,8 @@ div.app {
 
 .gray2{
   color: gray;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
+  font-family: "Poppins-Medium";
 }
 
 .frame68{
@@ -486,30 +546,35 @@ div.app {
 .revdesc{
   font-size: 1vw;
   color: #7D7D7D;
+  margin: 2% 8%;
+  font-family: "Poppins-Regular";
 }
 
 .ownerimg{
   margin-top: -46%;
   z-index: 5;
-  margin-left: 80%;
+  margin-left: 78%;
   position: relative;
 }
 
 .ownername{
   font-size: 1.2vw;
-  margin-top: -15%;
+  margin-top: -14%;
   margin-left: 82%;
   position: absolute;
   z-index: 5;
+  font-family: "Poppins-Medium";
 }
+
 
 .ownerdesg{
   position: absolute;
-  margin-top: -12.5%;
+  margin-top: -11.5%;
   font-size: 1.1vw;
   color: #DDAB6C;
   margin-left: 82%;
   z-index: 5;
+  font-family: "Poppins-Regular";
 }
 
 .dots1{
@@ -520,6 +585,7 @@ div.app {
   font-size: 3vw;
   text-align: center;
   margin-bottom: 4%;
+  font-family: "Poppins-Light";
 }
 
 .frame6{
@@ -537,6 +603,7 @@ div.app {
   text-align: center;
   font-size: 1.5vw;
   margin-bottom: 4%;
+  font-family: "Poppins-Regular";
 }
 
 .offer2{
@@ -545,6 +612,7 @@ div.app {
   text-align: center;
   font-size: 1.5vw;
   margin-bottom: 4%;
+  font-family: "Poppins-Regular";
 }
 
 .frame7{
@@ -571,6 +639,7 @@ div.app {
   margin-left: 35%;
   font-size: 1.5vw;
   margin-bottom: 4%;
+  font-family: "Poppins-Regular";
 }
 
 .offer4{
@@ -580,6 +649,7 @@ div.app {
   margin-right: 35%;
   font-size: 1.5vw;
   margin-bottom: 4%;
+  font-family: "Poppins-Regular";
 }
 
 
@@ -597,6 +667,7 @@ div.app {
   margin-left: 18%;
   font-size: 2vw;
   line-height: 0.6;
+  font-family: "Poppins-Medium";
 }
 
 .servicearea{
@@ -605,23 +676,25 @@ div.app {
 
 .services{
   font-size: 7vw;
-  font-weight: 700;
+  font-family: "Poppins-SemiBold";
 }
 
 .desc5{
   font-size: 1vw;
   margin-left: 18%;
+  font-family: "Poppins-Regular";
 }
 
 .spacetop{
   margin-top: 4%;
+  display: none;
 }
 
 .bob{
   height: auto;
   margin-left: 7%;
   position: absolute;
-  width: 24%;
+  width: 23%;
   z-index: 5;
 }
 
@@ -653,6 +726,10 @@ div.app {
 
 .servicesdesc{
   font-size: 1.1vw;
+  font-family: "Poppins-Regular";
+}
+.servicesheader{
+  font-family: "Poppins-SemiBold";
 }
 
 .blackbox{
@@ -688,12 +765,12 @@ div.app {
 }
 
 .bolding2{
-  font-weight: 600;
   margin-left: 9%;
   margin-top: 20%;
   position: absolute;
   z-index: 1;
   font-size: 15px;
+  font-family: "Poppins-SemiBold";
 }
 
 .discoverservices{
@@ -729,7 +806,7 @@ div.app {
 .line3{
   position: absolute;
   width: 4px;
-  height: 55%;
+  height: 65%;
   margin-left: 2%;
   margin-top: 1%;
   background-color: #DDAB6C;
@@ -738,14 +815,19 @@ div.app {
 .venueconsult{
   color: #ffffff;
   font-size: 1.4vw;
-  font-weight: 300;
+  font-weight: 400;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  margin-left: -10%;
 }
 
 .rectangle3538{
-  height: 30%;
-  width: 60%;
+  height: 15rem;
+  width: 9rem;
+  object-fit: cover;
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 5%;
   margin-bottom: 10%;
 }
 
@@ -765,12 +847,17 @@ div.app {
   margin-left: 0%;
 }
 
+
 .btn2{
   margin-left: 0%;
   padding: 1% 4%;
   border-radius: 50px;
   margin-top: 3%;
   font-size: 1.2vw;
+  cursor: pointer;
+}
+.btn3{
+  display: none;
 }
 
 .corporate{
@@ -818,6 +905,7 @@ div.app {
 .caption{
   text-align: left;
   margin-left: 10%;
+  font-family: "Poppins-Regular";
 }
 
 .carousel-indicators2{
@@ -840,11 +928,13 @@ div.app {
 .view{
   font-size: 1vw;
   color: #ffffff;
+  font-family:"Poppins-Regular";
 }
 
 .know{
   color: #0F0E0E;
   font-size: 1vw;
+  font-family:"Poppins-Regular";
 }
 
 .bgcurves{
@@ -874,8 +964,9 @@ div.app {
   display: flex;
   flex-direction: row;
   height: 30%;
+  width: auto;
   margin-left: -5.7%;
-  margin-top: 36%;
+  margin-top: 37%;
   overflow-x: auto;
 }
 
@@ -889,6 +980,7 @@ div.app {
   z-index: 5;
   padding-top: 5%;
   padding-left: 5%;
+  font-family: "Poppins-Medium";
 }
 
 .subcatdesc2{
@@ -897,6 +989,7 @@ div.app {
   z-index: 5;
   padding-top: 5%;
   padding-left: 5%;
+  font-family:"Poppins-Medium";
 }
 
 .graybox:hover{
@@ -937,6 +1030,7 @@ section{
     z-index: 5;
   }
 
+
   .word1{
     font-weight: 700;
     font-size: 14vw;
@@ -956,9 +1050,9 @@ section{
     height: auto;
     margin-left: 7%;
     margin-top: 0%;
-    width: 82%;
+    width: 72%;
     z-index: -1;
-  }
+}
 
   .poster{
     background-color: #0F0E0E;
@@ -1212,3 +1306,6 @@ section{
   bottom: -4px;
   left: 20px;
 } */
+.our{
+  font-family: "Poppins-Medium";
+}

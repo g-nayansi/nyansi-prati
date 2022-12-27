@@ -3,6 +3,8 @@ import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import Header from './navbar';
 import data from './data';
 
+import './corporate.css'
+
 function ServicePage(){
     const {serviceId} = useParams();
     var obj = {};
@@ -36,9 +38,9 @@ function ServicePage(){
     const url = "https://pratichakra-resources.s3.ap-south-1.amazonaws.com/pratichakra-images/images/"+obj.carousel_slide;
     const dots = "https://pratichakra-resources.s3.ap-south-1.amazonaws.com/pratichakra-images/images/Frame (1).png";
     return(
-        <section className='frameimages'>
+        <section className='frameimages app__corporate'>
             <div className='row'>
-                <div className='col-lg-6 col-12 width43'>
+                <div className='col-lg-6 col-12 width43 app__cor_car1'>
                     <div >
                         <div id="carouselExampleCaptions" className="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators carousel-indicators2">
@@ -49,19 +51,19 @@ function ServicePage(){
                             <div className="carousel-inner">
                                 <div className="carousel-item active">  
                                   <img src={url} className="d-block w-100 " alt="..." />
-                                  <div className="carousel-caption d-none d-md-block">
+                                  <div className="carousel-caption d-md-block">
                                      <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
                                   </div>
                                 </div>
                                 <div className="carousel-item">
                                   <img src={url} className="d-block w-100 " alt="..." />
-                                  <div className="carousel-caption d-none d-md-block">
+                                  <div className="carousel-caption d-md-block">
                                      <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
                                   </div>
                                 </div>
                                 <div className="carousel-item">
                                   <img src={url} className="d-block w-100 " alt="..." />
-                                  <div className="carousel-caption d-none d-md-block">
+                                  <div className="carousel-caption d-md-block">
                                      <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
                                   </div>
                                 </div>
@@ -69,11 +71,11 @@ function ServicePage(){
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-6 col-12 width57'>
-                    <div onClick={()=>{gotoNext(ind+1)}}>
+                <div className='col-lg-6 col-12 width57 app__cor_car2'>
+                    <div onClick={()=>{gotoNext(ind+1)}} className="app__next">
                         <img src={dots} className='dots9'/>
                         <img className='next' src={next} />
-                        <p className='nexttext'>NEXT</p>
+                        <p className='nexttext'>NEXT></p>
                     </div>
                     <div className='row'>
                         <div className='col-lg-12 col-12'>
@@ -88,7 +90,7 @@ function ServicePage(){
                                 i=!i;
                                 return(<div className={i?"col-lg-6 subcatdesc":"col-lg-6 subcatdesc2"}>
                                             <p className='serviceswe' onClick={()=>{gotosubservice(item.slug,index)}}>{item.subservice_name}<br /><br /><span className={i?'view':'know'}>View now ⟶</span></p>
-                                       </div>);
+                                        </div>);
                             })}
                     </div> 
                 </div>

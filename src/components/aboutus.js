@@ -13,7 +13,7 @@ function Aboutus(){
         Aos.init({duration:2000});
     },[]);
     return (
-        <section >       
+        <section className="about_us_sec">       
                 {/* <div>
                     // {/* <Header></Header> 
                 </div> */}
@@ -23,7 +23,7 @@ function Aboutus(){
                         <img className="dots" src="images/Frame (1).png"></img>
                     </div>
                     <div className="col-lg-5 col-12 approach">
-                        <p >Our<br /><span className="word1"> approach</span></p>
+                        <p className="our" >Our<br /><span className="word1"> approach</span></p>
                         <p className="desc1">We are a new emerging player in event managment and services domain having diverse network of
                         professional Event managers,  Vendors & Contributors on ground across India.</p>
                         <p className="learnmore">LEARN MORE <img className="ellipse2" src='images/Ellipse 1.svg'/><span className="rightarrow0">⟶</span></p>
@@ -42,7 +42,7 @@ function Aboutus(){
 
             <section>          
                 <div className="bgcurves">
-                <img align="right" className="dots2" src="images/Frame (1).png"></img>
+                {/* <img align="right" className="dots2" src="images/Frame (1).png"></img> */}
                 <div className="container  app__planning">
                     <div className="row">
                         <div data-aos="fade-up" className="col-lg-5 col-6">
@@ -115,17 +115,17 @@ function Aboutus(){
                     <div className="underline4"></div>
                     <div className="row">
                         <div className="col-lg-3 col-12 ">
-                            <img className="dots1" src="images/Frame (1).png"/>
+                            {/* <img className="dots1" src="images/Frame (1).png"/> */}
                         </div>
                         <div className="col-lg-7 col-12">
                             <img className="inverted" src="images/inverted.svg" />
                             <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="true">
-                                <div className="carousel-indicators">
+                                <div className="carousel-indicators Indicators">
                                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" ></button>
                                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
                                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
                                 </div>
-                                <div className="carousel-inner">
+                                <div className="carousel-inner1">
                                     <div className="carousel-item active ">
                                     <div className="revbox">
                                             <p className="revdesc">We’ve only recently started working with Pratichakra but they seriously saved our butts with a last minute vendor change and threw a truly incredible event for us on a really difficult timeline for our Fleet Week and Product Reveal day events.</p>

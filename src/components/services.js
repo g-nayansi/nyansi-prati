@@ -24,7 +24,7 @@ function Services(){
     return(
         <section>
             <div className="row">
-                <div className="col-lg-6 col-12">
+                <div className="col-lg-6 col-12 app__services">
                     <p className="ourservices">our<br /><span className='services'>services</span></p>
                     <br />
                     <p className="desc5">We work with the best companies and vetted <br />vendors to provide
@@ -34,7 +34,7 @@ function Services(){
                     <img data-aos = "fade-up" className="bob" src="images/bob.svg"></img>
                     <p className="bolding2">OUR SPECIALIZED EVENTS <img className="ellipse" src='images/Ellipse 1.svg'/><span className="rightarrow1">⟶</span></p>
                 </div>
-                <div className="col-lg-6 col-12 bgcurves">
+                <div className="col-lg-6 col-12 bgcurves app__serv">
                     <div className="positioning" 
                         
                     >
@@ -44,7 +44,7 @@ function Services(){
                                 return (<motion.div className={item.background} onClick={()=>{gotoContact(item.slug)}}
                                     whileHover={{x:35}}
                                 >
-                                    <h1>{item.name} <img className="building" src={item.image_url} /></h1>
+                                    <h1 className="servicesheader">{item.name} <img className="building" src={item.image_url} /></h1>
                                     <p className="servicesdesc">{item.desc}</p>
                                     <p className="rightarrow">⟶</p>
                                 </motion.div>);

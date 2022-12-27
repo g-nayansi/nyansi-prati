@@ -23,6 +23,17 @@ function Header(){
     setIsActive('services')
   }
 
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("app__navbar").style.top = "0";
+  } else {
+    document.getElementById("app__navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
 
    return (
     <nav className='app__navbar'>
@@ -46,7 +57,7 @@ function Header(){
         <li className={`app_navbar-link${isActive === 'home' ? '_active' : '' }`}  >
           {/* <a class="/" href="/">Home</a> */}
          
-          <Link  to='/' style={{color: `${isActive === 'aboutus' || isActive === 'services' ? 'black' : 'white'}`}} onClick={ClickOnHome}>Home</Link>
+          <Link  to='/' style={{color: `${isActive === 'aboutus' || isActive === 'services' ? 'black' : 'white'}`, fontFamily: 'Poppins-Medium'}} onClick={ClickOnHome}>Home</Link>
           {isActive === 'home' ? <div className="underline_nav flex flex-end col row"></div> : ''}
           
         </li>

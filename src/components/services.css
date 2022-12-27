@@ -7,24 +7,27 @@
     }
     .services {
         font-size: 14vw;
-        font-weight: 700;
+        font-weight: 600;
     }
     .desc5 {
         font-size: 0.75rem;
         margin-left: 10%;
+
     }
     .app__services img{
-        margin-left: 5%;
+        
     }
     .spacetop{
+        display: flex;
         margin-top: -15rem;
         margin-bottom: 15rem;
         height: 10rem;
         padding-left: 15rem;
+
     }
     .bob {
         height: auto;
-        margin-left: -70%;
+        margin-left: -70% !important;
         position: absolute;
         width: 48%;
         z-index: 5;
@@ -48,9 +51,16 @@
         margin-bottom: -1rem;
         font-weight: 800;
     }
+    .app__serv{
+        display: flex;
+        justify-content: center;
+    }
     .positioning {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-top: 21%;
-        margin-left: 7%;
+        margin-left: 0%;
         width: 100%;
         overflow-y: auto;
         height: 580px;
