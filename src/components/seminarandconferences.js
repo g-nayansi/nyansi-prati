@@ -2,6 +2,8 @@ import React from 'react';
 import {Link, useLocation, useNavigate, useParams} from "react-router-dom";
 import Header from './navbar';
 
+import data from './data'
+
 import './corporate.css'
 
 function Seminar_And_Conferences(){

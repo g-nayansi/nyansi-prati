@@ -1,9 +1,82 @@
-@media screen and (max-width: 470px) {
-    .ourservices {
-        margin-top: 20% !important;
+@media screen and (max-width: 480px) {
+      .ourservices {
+        margin-top: 40% !important;
         margin-left: 10%;
         font-size: 7vw;
         line-height: 0.6;
+    }
+    .services {
+        font-size: 14vw;
+        font-weight: 600;
+    }
+    .desc5 {
+        font-size: 0.75rem;
+        margin-left: 10%;
+
+    }
+    .app__services img{
+        
+    }
+    .spacetop{
+        display: flex;
+        margin-top: -18rem;
+        margin-bottom: 20rem;
+        height: 10rem;
+        padding-left: 20rem;
+
+    }
+    .bob {
+        height: auto;
+        margin-left: -60% !important;
+        position: absolute;
+        width: 48%;
+        z-index: 5;
+    }
+    .bolding2 {
+        font-weight: 600;
+        margin-left: 9%;
+        margin-top: 40%;
+        position: absolute;
+        z-index: 1;
+        font-size: 11px;
+    }
+    .ellipse {
+        width: 15%;
+        height: auto;
+    }
+    .rightarrow1 {
+        margin-left: -12%;
+        font-size: 4.5vw;
+        margin-top: 0%;
+        margin-bottom: -1rem;
+        font-weight: 800;
+    }
+    .app__serv{
+        display: flex;
+        justify-content: center;
+    }
+    .positioning {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 21%;
+        margin-left: 0%;
+        width: 100%;
+        overflow-y: auto;
+        height: 580px;
+    }
+    .servicesdesc {
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ourservices {
+        margin-top: 30% !important;
+        margin-left: 10%;
+        font-size: 7vw;
+        line-height: 0.6;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     .services {
         font-size: 14vw;
@@ -27,7 +100,7 @@
     }
     .bob {
         height: auto;
-        margin-left: -70% !important;
+        margin-left: -58% !important;
         position: absolute;
         width: 48%;
         z-index: 5;
@@ -35,7 +108,7 @@
     .bolding2 {
         font-weight: 600;
         margin-left: 9%;
-        margin-top: 50%;
+        margin-top: 40%;
         position: absolute;
         z-index: 1;
         font-size: 10px;

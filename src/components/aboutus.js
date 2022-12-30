@@ -74,7 +74,7 @@ function Aboutus(){
                             <img className="frame68" src="images/Frame 90.svg"></img>
                         </div>
                         <div className="col-lg-7 col-6 desc3">
-                            <p className="planning"><span className="bolding">Share Memories </span><br />With Others</p>
+                            <p className="planning planning2"><span className="bolding">Share Memories </span><br />With Others</p>
                             <div className="underline"></div>
                             <p className="gray">Share memories with others and give us next chance to serve better for your future occasions.</p>
                         </div>
@@ -83,11 +83,11 @@ function Aboutus(){
                     <div className="row">
                         <div className="col-lg-12 col-12 app__offer">
                             <div className="underline3"></div>
-                            <p className="offer"><span className="bolding">What</span> we offer ?</p>
+                            <p className="offer"><span className="bolding20">What</span> we offer ?</p>
                             {/* <img align="right" className="rightimages" src="images/Frame (1).png"></img> */}
                         </div>
                     </div>
-                    <div data-aos = "fade-up" className="container">
+                    <div data-aos = "fade-up" className="container Features">
                         <div className="row">
                             <div className="col-lg-1 col-12"></div>
                             <div className="col-lg-5 col-6 app__offers">
@@ -112,12 +112,12 @@ function Aboutus(){
                         </div>
                     </div>
                     <p className="reviews">Recent <span className="bolding">Reviews</span></p>
-                    <div className="underline4"></div>
+                    <div className="underline40"></div>
                     <div className="row">
                         <div className="col-lg-3 col-12 ">
                             {/* <img className="dots1" src="images/Frame (1).png"/> */}
                         </div>
-                        <div className="col-lg-7 col-12">
+                        <div className="col-lg-7 col-12 app__reviews">
                             <img className="inverted" src="images/inverted.svg" />
                             <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="true">
                                 <div className="carousel-indicators Indicators">
@@ -144,7 +144,7 @@ function Aboutus(){
                                         <div className="revbox">
                                             <p className="revdesc">We’ve only recently started working with Pratichakra but they seriously saved our butts with a last minute vendor change and threw a truly incredible event for us on a really difficult timeline for our Fleet Week and Product Reveal day events.</p>
                                             <p className="revdesc">They worked with us on budget, were super communicative, and Nikki and Brad were both very personally engaged, attended the event and were rockstars throughout. Two thumbs up from this end!</p>
-</div>
+                                    </div>
                                     <div className="ownerimg__block">
                                         <img className="ownerimg" src="images/Mark.svg" />
                                         <div className="owner__text">

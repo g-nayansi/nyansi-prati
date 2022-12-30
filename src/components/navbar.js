@@ -11,6 +11,7 @@ import {CgMenuGridO} from 'react-icons/cg';
 function Header(){
   const [isActive, setIsActive] = useState('home');
   const [toggle, setToggle] = useState(false);
+  const [down, setDown] = useState('#fffff')
 
 
   const ClickOnHome = () => { 
@@ -29,14 +30,29 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("app__navbar").style.top = "0";
   } else {
-    document.getElementById("app__navbar").style.top = "-50px";
+    // document.getElementById("navbar").style.position = "fixed"
+    document.getElementById("app__navbar").style.top = "-150px";
   }
   prevScrollpos = currentScrollPos;
 }
 
 
+
+
+window.addEventListener('scroll', function(event) { // To listen for event
+    event.preventDefault();
+
+    if (window.scrollY <= 150) { // Just an example
+        setDown = '#00000' // or default color
+    } else {
+        setDown = '#fffff'
+    }
+});
+
+
+
    return (
-    <nav className='app__navbar'>
+    <nav className='app__navbar' id='app__navbar'>
         {/* <Navbar expand="lg" fixed="top">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -57,19 +73,19 @@ window.onscroll = function() {
         <li className={`app_navbar-link${isActive === 'home' ? '_active' : '' }`}  >
           {/* <a class="/" href="/">Home</a> */}
          
-          <Link  to='/' style={{color: `${isActive === 'aboutus' || isActive === 'services' ? 'black' : 'white'}`, fontFamily: 'Poppins-Medium'}} onClick={ClickOnHome}>Home</Link>
+          <Link className='linksss' to='/' style={{color: `${isActive === 'aboutus' || isActive === 'services' ? 'black' : 'white'}`, fontFamily: 'Poppins-Medium'}} onClick={ClickOnHome}>Home</Link>
           {isActive === 'home' ? <div className="underline_nav flex flex-end col row"></div> : ''}
           
         </li>
         <li className={`app_navbar-link${isActive === 'aboutus' ? '_active' : '' }`}  >
           {/* <a  style={{color: `${isActive == 'aboutus' ? 'black' : ''}`}}  href="/about" >AboutUs</a> */}
           {/* <h3 style={{color: 'white'}}>AboutUs</h3> */}
-          <Link to="/about" style={{color: `${isActive === 'aboutus' || isActive === 'services' ? 'black' : ''}`}} onClick={ClickOnAbout} >About Us</Link>
+          <Link className='linksss' to="/about" style={{color: `${isActive === 'aboutus' || isActive === 'services' ? 'black' : ''}`}} onClick={ClickOnAbout} >About Us</Link>
           {isActive === 'aboutus' ? <div className="underline_nav flex flex-end col row"></div> : ''}
         </li>
         <li  className={`app_navbar-link${isActive === 'services' ? '_active' : '' }`}  >
           {/* <a class="/our-services" style={{color: `${isActive == 'services' ? 'black' : ''}`}} href="/our-services">Services</a> */}
-          <Link to="/our-services" style={{color: `${isActive === 'services' || isActive === 'aboutus' ? 'black' : ''}`}} onClick={ClickOnServices}>Services</Link>
+          <Link className='linksss' to="/our-services" style={{color: `${isActive === 'services' || isActive === 'aboutus' ? 'black' : ''}`}} onClick={ClickOnServices}>Services</Link>
           {isActive === 'services' ? <div className="underline_nav flex flex-end col row"></div> : ''}
 
         </li>

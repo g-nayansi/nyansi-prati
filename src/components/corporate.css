@@ -1,4 +1,4 @@
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 480px){
     .app__corporate{
         display: flex;
         flex-direction: column;
@@ -37,6 +37,291 @@
         margin-left: -50%;
         margin-right: -104%;
         align-items: flex-start;
+        margin-top: 55%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .subcatdesc{
+        background-color:  #1F1F1F;
+        color: #ffffff;
+        z-index: 5;
+        padding-top: 5%;
+        padding: 5%;
+        width: 100rem;
+        height: 40vh;
+        /* width: 218.75px; */
+        padding-right: 175px;
+        padding-left: 1.5rem;
+    }
+    .view{
+        font-size: 4vw;
+        color: #ffffff;
+    }
+    .know{
+        color: #0F0E0E;
+        font-size: 4vw;
+    } 
+    .subcatdesc2{
+        background-color:  #ffffff;
+        color: #1F1F1F;
+        z-index: 5;
+        padding-top: 5%;
+        padding: 5%;
+        width: 100rem;
+        height: 10vh;
+        padding-right: 138px;
+        padding-left: 1.5rem;
+    }
+    .serviceswe{
+        font-size: 7vw;
+    }
+
+
+
+
+
+    .app__next{
+        flex-direction: row;
+        height: 0vh;
+        width: 0vh;
+        
+    }
+    .nexttext{
+        margin-left: 55%;
+        z-index: 5;
+        margin-top: 30%;
+        color: #ffffff;
+        position: absolute;
+    }
+    .next{
+        position: absolute;
+        height: 35%;
+        width:34%;
+        object-fit: cover;
+        z-index: 1;
+        filter: brightness(0.4);
+        cursor: pointer;
+        margin-left: 46%;
+        margin-top: -15%;
+    }
+
+
+    .carousel-indicators1{
+        left: 0% !important;
+        bottom: 0% !important;
+        height: 55%;
+        margin-left: 10%!important;
+        /* width: 15% !important; */ 
+        transform: rotate(90deg) !important;
+      }
+    .carousel-indicators2{
+        right: 0% !important;
+        top: 135%;
+        left: -55%;
+    }
+
+    .caption{
+        text-align: center;
+        margin-left: -15%;
+        display: flex;
+        z-index: 5;
+        width: 10rem;
+        font-size: 0.7rem;
+        margin-top: -90%;
+        color: white;
+    }
+
+
+
+
+
+
+    .servicename{
+        margin-top: -60%;
+        font-size: 9vw;
+        font-weight: 700;
+        left: 0;
+        width: 100%;
+        text-align: start;
+        padding: 2%;
+        color: #ffffff;
+        z-index: 5;
+        line-height: 0.9;
+        position: absolute;
+        text-transform: uppercase;
+    }
+
+
+
+    .seminarrow{
+        height: 100vh;
+        overflow-x: hidden;       
+    }
+    .seminars{
+        font-size: 10vw;
+        margin-top: 30%;
+        margin-left: 0%;
+        line-height: 100%;
+        text-align: center;
+      }
+    .dots4{
+        display: none;
+    }
+    .discoverservices{
+        display: none;
+    }
+    .halfportion{
+        height: 70vh;
+        margin-top: -5rem;
+    }
+    .desc7{
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    .weprovide{
+        font-size: 5.5vw;
+        color: #DDAB6C;
+        position: relative;
+        margin-top: 58%;
+        margin-left: 21%;
+      }
+    .venueconsult{
+        color: #ffffff;
+        font-size: 4.4vw;
+        font-weight: 400;
+        margin-top: -2rem;
+        width: fit-content;
+        text-decoration: none;
+        list-style:circle;
+        list-style-type:disc;
+        margin-left: -2%;
+    }
+    .line3{
+        position: absolute;
+        width: 3px;
+        height: 35%;
+        margin-left: 8%;
+        margin-top: -30%;
+        background-color: #DDAB6C;
+        orientation:portrait;
+        transform: rotate(90deg);
+    }
+    .app__seminar_img{
+        margin-top: -30rem;
+        margin-bottom: 1rem;
+    }
+    .btn2{
+        display: none;
+    }
+    .app__BookNow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn3{
+        display:initial;
+        justify-content: center;
+        padding: 1% 4%;
+        border-radius: 50px;
+        margin-top: 0%;
+        text-align:center;
+        font-size: 4.2vw;
+
+        width: fit-content;
+        background-color: #ddaa6c00;
+        align-items: center;
+        margin-left: 4rem;
+        border: 2px solid white;
+        color: white;
+    }
+    .app__seminar{
+        margin-top: -16%;
+        z-index: 5;
+        margin-bottom: 45%;
+        height: 30vh;
+        text-align: center;
+    }
+    .rectangle3538{
+        height: 13rem;
+        width: 10rem;
+        object-fit: cover;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin: 1%;
+    }
+    .carousel {
+        /* height: 50vh; */
+        width: auto;
+        margin-left: 0rem;
+        height: 19rem;
+
+    }
+    .carousel_item{
+        height:90vh !important;
+        width: auto;
+        object-fit: cover;
+    }
+
+
+    .carousel-inner img{
+        height: 62vh;
+        width: 100vh;
+        /* margin-top: -55%; */
+        align-items: flex-start;
+        object-fit: cover;
+    }
+    .carousel-inner{
+
+        /* HEIGHT NOT EXCEDDING ABOVE 55REM */
+        height: 65rem;
+        object-fit: cover;
+    }
+    .item img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app__corporate{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .app__cor_car1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* height: 60vh; */
+        width: 100vh !important;
+        
+    }
+    .app__cor_car2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5rem;
+    }
+    .app__next{
+        margin-left: 6rem;
+        margin-top: -5rem;
+    }
+    .dots9{
+        display:none;
+    }
+    .dots6{
+        display: none;
+    }
+    .subcatbox{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        margin-left: -50%;
+        margin-right: -104%;
+        align-items: flex-start;
         margin-top: 36%;
         overflow-x: scroll;
     }
@@ -49,7 +334,7 @@
         width: 100rem;
         height: 40vh;
         /* width: 218.75px; */
-        padding-right: 138px;
+        padding-right: 125px;
         padding-left: 1.5rem;
     }
     .view{
@@ -154,6 +439,7 @@
 
     .seminarrow{
         height: 100vh;
+        overflow-x: hidden;       
     }
     .seminars{
         font-size: 10vw;

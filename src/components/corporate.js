@@ -52,19 +52,19 @@ function ServicePage(){
                                 <div className="carousel-item active">  
                                   <img src={url} className="d-block w-100 " alt="..." />
                                   <div className="carousel-caption d-md-block">
-                                     <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
+                                     <p className='caption'>{obj.desc}</p>
                                   </div>
                                 </div>
                                 <div className="carousel-item">
                                   <img src={url} className="d-block w-100 " alt="..." />
                                   <div className="carousel-caption d-md-block">
-                                     <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
+                                     <p className='caption'>{obj.desc}</p>
                                   </div>
                                 </div>
                                 <div className="carousel-item">
                                   <img src={url} className="d-block w-100 " alt="..." />
                                   <div className="carousel-caption d-md-block">
-                                     <p className='caption'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
+                                     <p className='caption'>{obj.desc}</p>
                                   </div>
                                 </div>
                             </div>
