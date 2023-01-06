@@ -7,6 +7,7 @@ import data from "./data";
 import {motion} from 'framer-motion';
 import { Link, useNavigate } from "react-router-dom";
 import Aos from "aos";
+import arrow from '../images/arrow.svg'
 
 import './services.css'
 
@@ -22,7 +23,7 @@ function Services(){
     }
 
     return(
-        <section>
+        <section className="">
             <div className="row">
                 <div className="col-lg-6 col-12 app__services">
                     <p className="ourservices">our<br /><span className='services'>services</span></p>
@@ -32,7 +33,7 @@ function Services(){
                     present you with the lowest prices and highest<br /> quality. All hasslefree!</p>
                     <img align='left' src="images/Frame (1).png" className="spacetop"/>
                     <img data-aos = "fade-up" className="bob" src="images/bob.svg"></img>
-                    <p className="bolding2">OUR SPECIALIZED EVENTS <img className="ellipse" src='images/Ellipse 1.svg'/><span className="rightarrow1">⟶</span></p>
+                    <p className="bolding2">OUR SPECIALIZED EVENTS <img src={arrow} className="ellipse"/></p>
                 </div>
                 <div className="col-lg-6 col-12 bgcurves app__serv">
                     <div className="positioning" 

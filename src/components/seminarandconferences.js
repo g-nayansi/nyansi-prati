@@ -7,6 +7,13 @@ import data from './data'
 import './corporate.css'
 
 function Seminar_And_Conferences(){
+
+
+
+    const handleConnect = () => {
+        window.open("https://wa.me/message/5I7EYEKHQYGRH1 ", '_blank')
+    }
+
     const {subServiceId} = useParams();
     var half1 = "";
     var half2 = "";
@@ -23,7 +30,7 @@ function Seminar_And_Conferences(){
     }
     const navigate = useNavigate();
     const gotoService = ()=>{
-        navigate('/services');
+        navigate('/our-services');
     }
     const url = "https://s3-alpha-sig.figma.com/img/69be/112c/0a7686d291423b8e6c22516388d58d44?Expires=1673222400&Signature=kZftha-TFh3Y1pe-Fj4dw6p6p5pqHb~AHvRGZaPxYUVdXP2DE~vkJR3Ip~~KZTvhviXlxbnTiwR9uGox98P72SC-WRPWex4kVbe8sBUqfSxWviNJzDCMWB~pvXpW1V5qiJbjuWCU-hYBNf~zbZ4QPeLS88nkf9cAwbEtDjjwN~43Rbu4ms1CpgQiacxHDlpcDT-YVcZo-aS1zFRruf0EISb8oOJ5ctoObjSCGN4J3f4rEImsaugkAgPVBT00b0bCXQQM6EPfKRq1kTxyAclhN2CaIp1VSDElUI90TekaMh8SqCqKVYnI8ChNmLuYRVPc8Vc72zlU~QVy3IBNYzcN0w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
     const url2 = "https://s3-alpha-sig.figma.com/img/d781/e6c2/5755b347b489237a3e9a8b0ef2f2097f?Expires=1673222400&Signature=fdlBm1zAlpBb~Z8sfUPJou~UNcBJrO4ghvjpyE1vFuokIfIL8pcARurXo0XXDAfmjp9HrSQCSXBjBp~2e0T5LBmDchdwKCkyNPDhVhdTLzGNxGY5vSpRw1bgkeayd5A-NSpqtSMiv0CIONhZ0Li4bgC5jeDYAAC-gyOSF1XKNXte9DBzxSksosZ97ywgpDYAAnNhAwQ-M7zzJrM3t4Vz--upV0RApp--kq0PuPVTpE62yDcKnVhVZkMqW2k~Z5X8QB8V09F6NIzuAsV2AhWCgluyI4Ptyee36Un804RIlXeXR-DqnQ2ZYdJTZ1cxC39xO1~foCxXQ2DXTW6uO3ASJA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
@@ -45,7 +52,7 @@ function Seminar_And_Conferences(){
                      turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus <br >
                      </br>nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum<br />
                       tellus elit sed risus. Maecenas eget condimentum velit, sit amet<br /> feugiat lectus.</p>
-                    <button className='btn2'>Book Now</button>
+                    <button className='btn2'  onClick={handleConnect}>Book Now</button>
                 </div>
                 
                 <div className='col-lg-5 col-12 halfportion'>
@@ -68,7 +75,7 @@ function Seminar_And_Conferences(){
                                 </ul>
                             </div>
                             <div className='col-lg-5 col-12 app__BookNow'>
-                                <button className='btn3'>Book Now</button>
+                                <button className='btn3'  onClick={handleConnect} >Book Now</button>
                             </div>
                             
                         </div>

@@ -121,14 +121,14 @@ function HomeScreen(){
                         <h2>Explore</h2>
                         <p>Check out the application and see the trending events, multiple brands, venues, vendors & special packages</p>
                     </div>
-                    <div className="app__box" style={{marginTop: '150px'}}>
+                    <div className="app__box box2">
                         <img src={vector2}/>
                         <h2>Events & Packages</h2>
                         <p>We have multiple events for you and special packages that you can easily get to save your money</p>
                     </div>
                 </div>
                 <div className="box2">
-                    <div>
+                    <div className="phone11">
                         <img src={phone1}/>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ function HomeScreen(){
                         <h2>Refer & Earn</h2>
                         <p>When you refer a friend and invite them to sign up with App, both you and your friend earn money by referral code</p>
                     </div>
-                    <div className="app__box" style={{marginTop: '150px'}}>
+                    <div className="app__box box2">
                         <img src={vector4}/>
                         <h2>Secure & Safe</h2>
                         <p>We ensure measure security & safe payment. Manage the event without any trouble</p> 
@@ -149,7 +149,7 @@ function HomeScreen(){
             <div className="banner2">
                 <div className="block1">
                     <p>Our journey</p>
-                    <h2>We have started booking events in the year <span className="span2">2021</span></h2>
+                    <h2>We have started booking events in the year <span className="span2">2022</span></h2>
                 </div>
                 <div className="block2">
                         <div className="div2">
@@ -169,7 +169,7 @@ function HomeScreen(){
         </section>
         <section>
             <div className="banner3">
-                    <p>Our company is also registered under</p>
+                    <p>Our company is registered under</p>
                     <img src={startupindia}/>
             </div>
         </section>
@@ -178,12 +178,12 @@ function HomeScreen(){
                 <div className="store_block1">
                     <h2>Pratichakra app will be available for all devices</h2>
                     <p>Our App will soon available to you</p>
-                    <div style={{display: 'flex', flexDirection: 'row'}}>
+                    <div className="storess">
                         <div className="store_button">
                             <img src={googleplay}/>
                         </div>
                         <div className="store_button">
-                            <img style={{marginLeft: '1rem'}} src={appstore}/>
+                            <img className="Img_apple" src={appstore}/>
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@ function HomeScreen(){
                 </div>
                 <div className="footer_block2">
                     <h2>Sudarshan Chakra Pratispardha (OPC) Private Limited</h2>
-                    <p>Customer Care no- <a href='tel:+91 (9818523999)' className='p-text'>+91 9818523999</a></p>
+                    <p>customer care: <a href='tel:+91 (9818523999)' className='p-text'>+91 9818523999</a></p>
                 </div>
                 <div className="footer_block3">
                     <p>Privacy   |   Terms & Conditions   |   Help & Support</p>

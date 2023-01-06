@@ -2,7 +2,8 @@
     .app__corporate{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height:53rem;
+        scroll-behavior: none;
         overflow-y: hidden;
         overflow-x: hidden;
     }
@@ -12,7 +13,6 @@
         align-items: center;
         /* height: 60vh; */
         width: 100vh !important;
-
         
     }
     .app__cor_car2{
@@ -21,7 +21,7 @@
         margin-top: 5rem;
     }
     .app__next{
-        margin-left: 6rem;
+        margin-left: 7rem;
         margin-top: -5rem;
     }
     .dots9{
@@ -33,13 +33,12 @@
     .subcatbox{
         display: flex;
         flex-direction: row;
-        height: auto;
+        height: 100vh;
         margin-left: -50%;
         margin-right: -104%;
         align-items: flex-start;
-        margin-top: 55%;
-        overflow-y: hidden;
-        overflow-x: hidden;
+        margin-top: 56%;
+        overflow-x: scroll;
     }
     .subcatdesc{
         background-color:  #1F1F1F;
@@ -50,7 +49,7 @@
         width: 100rem;
         height: 40vh;
         /* width: 218.75px; */
-        padding-right: 175px;
+        padding-right: 150px;
         padding-left: 1.5rem;
     }
     .view{
@@ -101,7 +100,7 @@
         z-index: 1;
         filter: brightness(0.4);
         cursor: pointer;
-        margin-left: 46%;
+        margin-left: 42%;
         margin-top: -15%;
     }
 
@@ -282,13 +281,15 @@
           left: 0;
           min-height: 300px;
     }
+      
+    
 }
 
 @media screen and (max-width: 400px) {
     .app__corporate{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 48rem;
         overflow-y: hidden;
         overflow-x: hidden;
     }
@@ -304,6 +305,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 5rem;
+        
     }
     .app__next{
         margin-left: 6rem;
@@ -324,6 +326,7 @@
         align-items: flex-start;
         margin-top: 36%;
         overflow-x: scroll;
+        overflow-y: hidden;
     }
     .subcatdesc{
         background-color:  #1F1F1F;
@@ -336,6 +339,7 @@
         /* width: 218.75px; */
         padding-right: 125px;
         padding-left: 1.5rem;
+        
     }
     .view{
         font-size: 4vw;

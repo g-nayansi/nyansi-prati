@@ -81,6 +81,14 @@
     font-weight: 500;
     font-family: 'Poppins-Regular';
 }
+.app__menu_link li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Poppins-Regular';
+}
 
 .app__li_tab{
     
@@ -120,15 +128,26 @@
 }
 
 .app__navbar-menu{
-  width: 35px;
-  height: 35px;
-  border-radius: 50px;
-  position: relative;
+  width: 45px;
+  height: 45px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   background: rgba(0, 0, 0, 0);
   z-index:2;
+  display: none;
+
+
+  width: 100%;
+  align-items: right;
+  padding: 0 2rem;
+  position: absolute;
+  background: rgba(255, 255, 255, 0);
+  z-index: 22;
+  margin-left: 0%;
+  margin-top: 5%;
+  align-items: right;
+  justify-content: right;
+  padding-left: 80%;
+
 
   
 }
@@ -147,8 +166,8 @@
       width: 80%;
       height: 100vh;
       display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
+      justify-content: flex-start;
+      align-items: flex-start;
       flex-direction: column;
       
       background-color: white;
@@ -181,9 +200,9 @@
 .app__navbar-menu ul li a{
   color: rgb(184, 184, 184);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400 !important;
   transition: all 0.3s ease-in-out;
 }
 
@@ -193,6 +212,11 @@
   .app__navbar{
       display: none;
 
+  }
+  .app__navbar-menu{
+    display:flex;
+  
+    
   }
   
 }

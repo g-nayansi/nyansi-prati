@@ -5,6 +5,10 @@ import Header from "./navbar";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import './aboutus.css'
+import arrow from '../images/arrow.svg'
+
+import vendors1 from '../images/vendors1.jpeg'
+import vendors2 from '../images/vendors2.jpeg'
 
 function Aboutus(){
     let location = useLocation();
@@ -26,7 +30,7 @@ function Aboutus(){
                         <p className="our" >Our<br /><span className="word1"> approach</span></p>
                         <p className="desc1">We are a new emerging player in event managment and services domain having diverse network of
                         professional Event managers,  Vendors & Contributors on ground across India.</p>
-                        <p className="learnmore">LEARN MORE <img className="ellipse2" src='images/Ellipse 1.svg'/><span className="rightarrow0">⟶</span></p>
+                        <p className="learnmore">LEARN MORE <img src={arrow} className="ellipse2"/></p>
                     </div>
                     <div className="col-lg-3 col-12">
                         <img className="img1" src="images/skate.png"></img>
@@ -123,50 +127,50 @@ function Aboutus(){
                                 <div className="carousel-indicators Indicators">
                                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" ></button>
                                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+                                  {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button> */}
                                 </div>
                                 <div className="carousel-inner1">
                                     <div className="carousel-item active ">
                                     <div className="revbox">
                                             <p className="revdesc">We’ve only recently started working with Pratichakra but they seriously saved our butts with a last minute vendor change and threw a truly incredible event for us on a really difficult timeline for our Fleet Week and Product Reveal day events.</p>
-                                            <p className="revdesc">They worked with us on budget, were super communicative, and Nikki and Brad were both very personally engaged, attended the event and were rockstars throughout. Two thumbs up from this end!</p>
+                                            <p className="revdesc">They worked with us on budget, were super communicative, very personally engaged, attended the event and were rockstars throughout. Two thumbs up from this end!</p>
                                         </div>
                                     <div className="ownerimg__block">
-                                        <img className="ownerimg" src="images/Mark.svg" />
+                                        <img className="ownerimg" src={vendors2} />
                                         <div className="owner__text">
-                                            <p className="ownername">Mark Spencer</p>
-                                            <p className="ownerdesg">CEO,founder</p>
+                                            <p className="ownername">Chauhan Farm house & Swimming Pool</p>
+                                            <p className="ownerdesg">Noida</p>
                                         </div>
                                        
                                     </div>
                                     </div>
                                     <div className="carousel-item">
                                         <div className="revbox">
-                                            <p className="revdesc">We’ve only recently started working with Pratichakra but they seriously saved our butts with a last minute vendor change and threw a truly incredible event for us on a really difficult timeline for our Fleet Week and Product Reveal day events.</p>
-                                            <p className="revdesc">They worked with us on budget, were super communicative, and Nikki and Brad were both very personally engaged, attended the event and were rockstars throughout. Two thumbs up from this end!</p>
+                                            <p className="revdesc">We have completed many Events successfully with Pratichakra and they are up to the Mark in all departments. With the proper team and well-organized team which leads to an excellent experience.</p>
+                                            <p className="revdesc">They also did very well by inviting the guests, booking the facility, and successfully with the event. and in all the events I have not faced any issues with pratichakra.</p>
                                     </div>
                                     <div className="ownerimg__block">
-                                        <img className="ownerimg" src="images/Mark.svg" />
+                                        <img className="ownerimg" src={vendors1} />
                                         <div className="owner__text">
-                                            <p className="ownername">Mark Spencer</p>
-                                            <p className="ownerdesg">CEO,founder</p>
+                                            <p className="ownername">Kapoor Studios</p>
+                                            <p className="ownerdesg">Noida</p>
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="carousel-item">
-                                        <div                                        div className="revbox">
+                                    {/* <div className="carousel-item">
+                                        <div className="revbox">
                                             <p className="revdesc">We’ve only recently started working with Pratichakra but they seriously saved our butts with a last minute vendor change and threw a truly incredible event for us on a really difficult timeline for our Fleet Week and Product Reveal day events.</p>
                                             <p className="revdesc">They worked with us on budget, were super communicative, and Nikki and Brad were both very personally engaged, attended the event and were rockstars throughout. Two thumbs up from this end!</p>
                                         </div>
                                     <div className="ownerimg__block">
                                         <img className="ownerimg" src="images/Mark.svg" />
                                         <div className="owner__text">
-                                            <p className="ownername">Mark Spencer</p>
+                                            <p className="ownername">Mark Spencer33</p>
                                             <p className="ownerdesg">CEO,founder</p>
                                         </div>
                                     </div>
                                         
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
