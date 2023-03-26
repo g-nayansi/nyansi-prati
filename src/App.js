@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeScreen from "./components/homescreen";
 import {BrowserRouter,Route,Routes,Switch,Link, Router} from 'react-router-dom';
@@ -8,19 +9,28 @@ import Services from "./components/services";
 import Seminar_And_Conferences from "./components/seminarandconferences";
 import Corporate from "./components/corporate";
 import ServicePage from "./components/corporate";
+import BookNowForm from "./components/BookNowForm/BookNowForm";
 
 function App() {
+  let [bookForm, setBookform] = useState(false);
+  useEffect(()=>{
+    if(window.location.href.includes('booknow-form')){
+      setBookform(true)
+    }
+  })
+
   return (
     <>
     
     <BrowserRouter>
-        <Header></Header>
+        <Header state={bookForm}></Header>
          <Routes>
           <Route path='/' element={<HomeScreen></HomeScreen>} />
           <Route path='/about' element={<Aboutus></Aboutus> } />
           <Route path='/our-services' element={<Services></Services>} />
           <Route path='/services/:serviceId' element={<ServicePage></ServicePage>} />
           <Route path='/services/:serviceId/sub-service/:subServiceId' element={<Seminar_And_Conferences></Seminar_And_Conferences>} />
+          <Route path="/booknow-form" element = {<BookNowForm />} />
         </Routes> 
     </BrowserRouter>
 

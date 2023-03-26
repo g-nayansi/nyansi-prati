@@ -35,9 +35,8 @@ import {BsWhatsapp} from 'react-icons/bs'
 import Aboutus from "./aboutus";
 import Services from "./services";
 
-const handleConnect = () => {
-    window.open("https://wa.me/message/5I7EYEKHQYGRH1 ", '_blank')
-}
+
+
 function HomeScreen(){
 
     const navigate = useNavigate();
@@ -45,6 +44,11 @@ function HomeScreen(){
     useEffect(()=>{
        Aos.init({duration:2000});
     },[]);
+    const handleConnect = () => {
+    
+        navigate("/booknow-form",{replace:true})
+        // window.open("https://wa.me/message/5I7EYEKHQYGRH1 ", '_blank')
+    }
 
  
 
@@ -86,10 +90,10 @@ function HomeScreen(){
 
                     <div className="btn_connect">
                             <div className="connect_btn" >
-                            <div style={{flex: 1,flexDirection: 'row',padding: 5, flexWrap: 'wrap', cursor: 'pointer'}}  onClick={handleConnect} >
+                            <div style={{flex: 1,flexDirection: 'row',padding: 5, flexWrap: 'wrap', cursor: 'pointer'}} onClick={handleConnect} >
 
                                 <div style={{flex:1, flexDirection: 'row'}}>
-                                    <h3 className="text_connect"><span><BsWhatsapp/></span>Connect with us</h3>
+                                    <h3 className="text_connect">Book Now</h3>
                                     
                                 </div>
                                 
