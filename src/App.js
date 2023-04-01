@@ -10,6 +10,7 @@ import Seminar_And_Conferences from "./components/seminarandconferences";
 import Corporate from "./components/corporate";
 import ServicePage from "./components/corporate";
 import BookNowForm from "./components/BookNowForm/BookNowForm";
+import FormSlider from "./components/framerSlider/FormSlider";
 
 function App() {
   let [bookForm, setBookform] = useState(false);
@@ -31,6 +32,7 @@ function App() {
           <Route path='/services/:serviceId' element={<ServicePage></ServicePage>} />
           <Route path='/services/:serviceId/sub-service/:subServiceId' element={<Seminar_And_Conferences></Seminar_And_Conferences>} />
           <Route path="/booknow-form" element = {<BookNowForm />} />
+          <Route path="/formerslider" element={<FormSlider />} />
         </Routes> 
     </BrowserRouter>
 

@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 3%;
 }
 .option_list{
     
@@ -39,7 +39,8 @@ border-radius: 0px; */
     font-size: 8px;
 }
 
-img{
+
+.option_list img{
     height: 25px;
     width: auto;
 }

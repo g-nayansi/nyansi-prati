@@ -1,0 +1,11 @@
+.nav_background{
+    height: 10vh;
+    background-color: black;
+}
+.slider_container{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
