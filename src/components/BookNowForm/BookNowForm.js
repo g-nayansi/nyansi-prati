@@ -39,13 +39,12 @@ function BookNowForm() {
   useEffect(()=>{
     let firstFormSlide = <FirstSlide />
     let secondFormSlide =  <SecondSlide state={eventOptions} />
-
-  let thirdFormSlide = <ThirdSlide state={musicTypes} />
-  let fourthSlide = < FourthSlide state={programTypes} />
-  let fifthSlide = < FifthSlide state={peopleTypes1} secondState={peopleTypes2} />
-  let sixthSlide = < SixthSlide state={budgetTypes1} secondState={budgetTypes2} />
-  let seventhSlide = < SeventhSlide state={locationType} />
-  let lastSlide = < LastSlide />
+    let thirdFormSlide = <ThirdSlide state={musicTypes} />
+    let fourthSlide = < FourthSlide state={programTypes} />
+    let fifthSlide = < FifthSlide state={peopleTypes1} secondState={peopleTypes2} />
+    let sixthSlide = < SixthSlide state={budgetTypes1} secondState={budgetTypes2} />
+    let seventhSlide = < SeventhSlide state={locationType} />
+    let lastSlide = < LastSlide />
   setSlideArr( [firstFormSlide, secondFormSlide, thirdFormSlide, fourthSlide, fifthSlide, sixthSlide ,seventhSlide ,lastSlide ]);
   setCurrentSlide(firstFormSlide)
   }, [])

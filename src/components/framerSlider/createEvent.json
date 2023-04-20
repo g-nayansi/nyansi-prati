@@ -1,0 +1,993 @@
+[
+    {
+        "categoryName": "Corporate",
+        "subCategories": [
+            {
+                "name":"Seminars and Conferences",
+                "options": [
+                    {
+                        "programList": [],
+                        "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                        "venueTypeOptions": ["Open Ground", "Auditorium"],
+                        "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                        "selectDateAndTime": true,
+                        "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+                    }
+                ]
+            },
+            {
+                "name":"Trade Shows",
+                "options": [
+                    {
+                        "programList": [],
+                        "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                        "venueTypeOptions": ["Open Ground", "Auditorium"],
+                        "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                        "selectDateAndTime": true,
+                        "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+                    }
+                ]
+            },
+            {
+                "name":"Team-Building & Appreciation Activities",
+                "options": [
+                    {
+                        "programList": [],
+                        "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                        "venueTypeOptions": ["Open Ground", "Auditorium"],
+                        "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                        "selectDateAndTime": true,
+                        "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+                    }
+                ]
+            },
+            {
+                "name":"Product Launch",
+                "options": [
+                    {
+                        "programList": [],
+                        "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                        "venueTypeOptions": ["Open Ground", "Auditorium"],
+                        "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                        "selectDateAndTime": true,
+                        "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+                    }
+                ]
+            },
+            {
+                "name":"Company or Industry Sports Tournaments",
+                "options": [
+                    {
+                        "programList": [],
+                        "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                        "venueTypeOptions": ["Open Ground", "Auditorium"],
+                        "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                        "selectDateAndTime": true,
+                        "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+                    }
+                ]
+            },
+            {
+                "name":"Award Ceremonies",
+                "options": [
+                    {
+                        "programList": [],
+                        "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                        "venueTypeOptions": ["Open Ground", "Auditorium"],
+                        "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                        "selectDateAndTime": true,
+                        "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+                    }
+                ]
+            },
+            {
+                "name":"Workshops",
+                "options": [
+                    {
+                        "programList": [],
+                        "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                        "venueTypeOptions": ["Open Ground", "Auditorium"],
+                        "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                        "selectDateAndTime": true,
+                        "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Cultural",
+        "subCategories": [
+            {
+                "name":"Arts & Health",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Concert",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Dancing",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Painting and Traditional Crafts",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Classical Music and Singing",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Photography and Film",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Poetry",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Pottery and Ceramic",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Festival Celebrations",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Indian Culture",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Education",
+        "subCategories": [
+            {
+                "name":"Computer and Hackathon",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Training & Webinar Sessions",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Talent Hunt Programmes & Certifications",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Yoga & Meditation Sessions",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Painting & Arts Competition",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Cooking & Baking Course",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Personality Development Training",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Family & Friends ",
+        "subCategories": [
+            {
+                "name":"Birthday Party",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Bridal & Baby Showers",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Wedding & Engagment",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Family Reunion",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Family Outings",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Casual Hangout Parties",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Old School Senior Hangouts",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Religious Celebrations",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Themed Parties",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Kids Fun Activities",
+        "subCategories": [
+            {
+                "name":"Learning via games",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Adventure",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Amusement Parks",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Video & Real Gameplay",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Exhibitions",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Potluck Dinner",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Music",
+        "subCategories": [
+            {
+                "name":"Band Jamming",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Musical Theatre Music",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Classical & Opera",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Country",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Hip Hop Music",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Indie Music",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Jazz & Blues",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Pop & Rock",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"R&B & Soul",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"World & International Music",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Political & Social",
+        "subCategories": [
+            {
+                "name":"Debates",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },    
+            {
+                "name":"Poetry Competitions",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Awareness Programmes",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Social Charity Programmes",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Political Campaingns",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Social Initiatives",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Public Polling",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Internationa Summits",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"National Celebrations",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Civic Ocassions",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Fundraising Events",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Sports",
+        "subCategories": [
+            {
+                "name":"Soccer",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },    
+            {
+                "name":"BasketBall",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Tennis",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Volleyball",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Badminton",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Swimming",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Table Tennis",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Cricket",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Pool",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Bowling",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Martial Arts & Judo",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Travel & Tourism",
+        "subCategories": [
+            {
+                "name":"Tour Packages",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },    
+            {
+                "name":"Domestic Flights",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Leisure Outings",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Business Travel",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Visiting Friends and Relatives(VFR)",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Health & Wellness Visits",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Adventure & Wildlife",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Cultural Tours",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    },
+    {
+        "categoryName": "Visual & Performing Arts",
+        "subCategories": [
+            {
+                "name":"Dance & Singing",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },    
+            {
+                "name":"Theatre and Musical Theatre",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Magic Show",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Puppetry & Circus Arts",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Painting & Drawing",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Printmaking",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Sculpture & Ceramics",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Photography",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Videography",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Filmmaking",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Design & Crafts",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            },
+            {
+                "name":"Architecture",
+                "programList": [],
+                "gatheringSizeOptions": ["1-50", "50-100", "100-200", "200-500", "500-1000", "Above 1000"],
+                "venueTypeOptions": ["Open Ground", "Auditorium"],
+                "budgetRangeOptions": ["25,000 INR", "50,000 INR", "75,000 INR", "1,00,000 INR", "1,50,000 INR", "Above 1.5L"],
+                "selectDateAndTime": true,
+                "locationOptions": ["Delhi NCR", "Gurugram", "Faridabad","Bangalore", "Jaipur","Pune","Amritsar","Varanasi", "Ahemdabad","Hyderabad", "Chennai", "Others"]
+
+            }
+        ]
+
+    }
+]
